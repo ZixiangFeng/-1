@@ -1,0 +1,25 @@
+[Unit]
+Description=Xiaoyu expression companion prototype
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=xiaoyu
+Group=xiaoyu
+WorkingDirectory=/opt/xiaoyu
+Environment=HOST=127.0.0.1
+Environment=PORT=8765
+Environment=BASE_PATH=/xiaoyu
+Environment=PUBLIC_DEMO=0
+Environment=TRUST_PROXY=1
+Environment=PUBLIC_DEMO_LIMIT=200
+Environment=TOKENIZERS_PARALLELISM=false
+ExecStart=/opt/xiaoyu/.venv-style/bin/python server.py
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/opt/xiaoyu/data
+[Install]
+WantedBy=multi-user.target

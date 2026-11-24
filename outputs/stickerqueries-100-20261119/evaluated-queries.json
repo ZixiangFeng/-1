@@ -1,0 +1,4088 @@
+[
+  {
+    "query": "Z001",
+    "source_query": "委屈巴巴",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 11,
+    "semantic": {
+      "id": "E0400",
+      "meaning_score": 0.6901746988296509,
+      "style_distance": 0.6815648375280929,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0280",
+      "meaning_score": 0.5922999382019043,
+      "style_distance": 1.1630420860185007,
+      "meaning_rank": 6
+    },
+    "semantic_rating": {
+      "blind_id": "K001",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都在诉委屈。白底细线人物换成带字幕的动画截图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K058",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "配字直接说明宝宝委屈，两张都能在聊天里诉委屈。卡通人物换成真人。"
+    }
+  },
+  {
+    "query": "Z002",
+    "source_query": "好棒",
+    "reference_family": "support",
+    "method": "27",
+    "group": "praise",
+    "family_candidates": 8,
+    "interchangeable": 8,
+    "style_eligible": 8,
+    "semantic": {
+      "id": "E0162",
+      "meaning_score": 0.5659937858581543,
+      "style_distance": 1.0097378556998566,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0297",
+      "meaning_score": 0.40810859203338623,
+      "style_distance": 1.0413093844512173,
+      "meaning_rank": 8
+    },
+    "semantic_rating": {
+      "blind_id": "K031",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "都在直接夸对方很棒。黑白线条人物换成真人照片加文字。"
+    },
+    "divergent_rating": {
+      "blind_id": "K063",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "击掌可以庆贺，也可以只是打招呼，不能确定代替一句好棒。黑白绘画换成猫爪照片。"
+    }
+  },
+  {
+    "query": "Z003",
+    "source_query": "哭泣",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 10,
+    "semantic": {
+      "id": "E0486",
+      "meaning_score": 0.6733899712562561,
+      "style_distance": 1.0621410442081998,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0287",
+      "meaning_score": 0.5186835527420044,
+      "style_distance": 1.1391174941441717,
+      "meaning_rank": 8
+    },
+    "semantic_rating": {
+      "blind_id": "K067",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选的文字直接说在哭，可以用来表达原图的哭泣。卡通换成真人照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K083",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "反复自述这些年窝囊，表达压抑经历，与当前在哭不是同一个意思。"
+    }
+  },
+  {
+    "query": "Z004",
+    "source_query": "拽",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z005",
+    "source_query": "包袱",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z006",
+    "source_query": "呜呜",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z007",
+    "source_query": "冰天雪地",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z008",
+    "source_query": "听不清",
+    "reference_family": "question",
+    "method": "27",
+    "group": "confused",
+    "family_candidates": 8,
+    "interchangeable": 8,
+    "style_eligible": 7,
+    "semantic": {
+      "id": "B0122",
+      "meaning_score": 0.6587930917739868,
+      "style_distance": 0.9094929261108882,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0047",
+      "meaning_score": 0.5287075042724609,
+      "style_distance": 1.005130971110296,
+      "meaning_rank": 7
+    },
+    "semantic_rating": {
+      "blind_id": "K070",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "带问号的主持人表示疑惑，也可能是没听明白，单看图不能确定是听不清。"
+    },
+    "divergent_rating": {
+      "blind_id": "K009",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "听不清和一脸懵描述的困难不同。动画人物换成白底图文。"
+    }
+  },
+  {
+    "query": "Z009",
+    "source_query": "哼",
+    "reference_family": "objection",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z010",
+    "source_query": "抱臂走路",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z011",
+    "source_query": "灰色衣服小孩",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z012",
+    "source_query": "干饭",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 12,
+    "semantic": {
+      "id": "B0240",
+      "meaning_score": 0.6478590369224548,
+      "style_distance": 0.9219078912770803,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0356",
+      "meaning_score": 0.5318684577941895,
+      "style_distance": 1.036078806772352,
+      "meaning_rank": 4
+    },
+    "semantic_rating": {
+      "blind_id": "K025",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张图都在大口吃东西，可以拿来表示干饭。精细上色换成简笔插画。"
+    },
+    "divergent_rating": {
+      "blind_id": "K013",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "我去干饭与问别人还饿不饿是不同的说话动作。"
+    }
+  },
+  {
+    "query": "Z013",
+    "source_query": "肥猫大哭",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z014",
+    "source_query": "休息",
+    "reference_family": "social|daily",
+    "method": "27",
+    "group": "sleep",
+    "family_candidates": 10,
+    "interchangeable": 10,
+    "style_eligible": 10,
+    "semantic": {
+      "id": "E0139",
+      "meaning_score": 0.6018234491348267,
+      "style_distance": 0.8197352003907556,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0306",
+      "meaning_score": 0.3759121596813202,
+      "style_distance": 1.0019600896294052,
+      "meaning_rank": 9
+    },
+    "semantic_rating": {
+      "blind_id": "K017",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "睡觉符号表示休息，一段招呼大家喝茶的文字有另一个目的。"
+    },
+    "divergent_rating": {
+      "blind_id": "K028",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "休息和因别的事来不了属于不同的沟通目的。"
+    }
+  },
+  {
+    "query": "Z015",
+    "source_query": "闪耀登场",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z016",
+    "source_query": "伤心",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 14,
+    "semantic": {
+      "id": "E0486",
+      "meaning_score": 0.6155487895011902,
+      "style_distance": 0.8877224178370461,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0603",
+      "meaning_score": 0.6013756990432739,
+      "style_distance": 1.0738566187253307,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K051",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "自己伤心与被某事看哭了有交集，但后者也可能是感动。插画换成实拍。"
+    },
+    "divergent_rating": {
+      "blind_id": "K082",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "谈男人会使女人伤心与表达自己伤心不同。插画换成真人画面。"
+    }
+  },
+  {
+    "query": "Z017",
+    "source_query": "肥猫",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z018",
+    "source_query": "呆目",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z019",
+    "source_query": "观察",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z020",
+    "source_query": "小女孩",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z021",
+    "source_query": "黑发帅哥",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z022",
+    "source_query": "期待",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "laugh",
+    "family_candidates": 54,
+    "interchangeable": 54,
+    "style_eligible": 47,
+    "semantic": {
+      "id": "B0014",
+      "meaning_score": 0.6230669617652893,
+      "style_distance": 1.0175337455899345,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0404",
+      "meaning_score": 0.29234302043914795,
+      "style_distance": 1.16123665172958,
+      "meaning_rank": 28
+    },
+    "semantic_rating": {
+      "blind_id": "K038",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "有戏看了带有围观热闹的意思，只有在期待看热闹时适合。精细人像插画换成重复的小人图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K059",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "综艺字幕和两个人大笑没有传达正期待什么。角色插画换成节目截图。"
+    }
+  },
+  {
+    "query": "Z023",
+    "source_query": "喝咖啡",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z024",
+    "source_query": "真的吗？",
+    "reference_family": "question",
+    "method": "27",
+    "group": "doubt",
+    "family_candidates": 16,
+    "interchangeable": 16,
+    "style_eligible": 11,
+    "semantic": {
+      "id": "E0269",
+      "meaning_score": 0.5535720586776733,
+      "style_distance": 0.440486695102452
+    },
+    "divergent": {
+      "id": "B0030",
+      "meaning_score": 0.43570446968078613,
+      "style_distance": 1.134702215468051,
+      "meaning_rank": 9
+    },
+    "semantic_rating": {
+      "blind_id": "K029",
+      "intent": "uncertain",
+      "style": "uncertain",
+      "same_template": "no",
+      "observation": "质疑某件事可疑与惊喜地追问真的吗有部分重叠，语气不同。两者均为彩色卡通人物。"
+    },
+    "divergent_rating": {
+      "blind_id": "K079",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "讽刺网上名言都是瞎编的，和真诚询问真的吗用途不同。"
+    }
+  },
+  {
+    "query": "Z025",
+    "source_query": "情侣贴纸",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z026",
+    "source_query": "空洞",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z027",
+    "source_query": "小孩站着",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z028",
+    "source_query": "钻石",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z029",
+    "source_query": "嘻嘻",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z030",
+    "source_query": "别伤心",
+    "reference_family": "support",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 14,
+    "semantic": {
+      "id": "E0603",
+      "meaning_score": 0.5516769886016846,
+      "style_distance": 0.6405124312680845
+    },
+    "divergent": {
+      "id": "E0741",
+      "meaning_score": 0.4406193196773529,
+      "style_distance": 1.0186883450460782,
+      "meaning_rank": 9
+    },
+    "semantic_rating": {
+      "blind_id": "K065",
+      "intent": "no",
+      "style": "no",
+      "same_template": "no",
+      "observation": "别伤心是在安慰对方，男人会让女人伤心是在归因。两张均为实拍。"
+    },
+    "divergent_rating": {
+      "blind_id": "K033",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "安慰对方别伤心与自己眼泪汪汪不同。猫咪照片换成动画截图。"
+    }
+  },
+  {
+    "query": "Z031",
+    "source_query": "鼠鼠背影",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z032",
+    "source_query": "崩溃",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z033",
+    "source_query": "可怜",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 14,
+    "semantic": {
+      "id": "E0544",
+      "meaning_score": 0.5479972958564758,
+      "style_distance": 0.8361695121913545,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0018",
+      "meaning_score": 0.5075840950012207,
+      "style_distance": 0.9580659689977732,
+      "meaning_rank": 4
+    },
+    "semantic_rating": {
+      "blind_id": "K004",
+      "intent": "uncertain",
+      "style": "no",
+      "same_template": "no",
+      "observation": "原图眼巴巴地让人心软，访谈图在陈述痛苦，是否同为卖可怜取决于对象。两张都为照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K006",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "含泪小人和小猫都可以向对方卖可怜，照片换成极简线条。"
+    }
+  },
+  {
+    "query": "Z034",
+    "source_query": "淡淡的死感",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 14,
+    "semantic": {
+      "id": "B0287",
+      "meaning_score": 0.5092383623123169,
+      "style_distance": 0.9284358073044635,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0142",
+      "meaning_score": 0.25627273321151733,
+      "style_distance": 1.0674035976653855,
+      "meaning_rank": 18
+    },
+    "semantic_rating": {
+      "blind_id": "K005",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "熊的重复自述有疲惫感，是否具有原词的淡漠意味不明确。插画换成配字实拍。"
+    },
+    "divergent_rating": {
+      "blind_id": "K032",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "鸭子在追问为何受到委屈，原词是淡漠疲惫。人物插画换成动物照片。"
+    }
+  },
+  {
+    "query": "Z035",
+    "source_query": "施法",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z036",
+    "source_query": "你懂的",
+    "reference_family": "response",
+    "method": "27",
+    "group": "ack",
+    "family_candidates": 6,
+    "interchangeable": 6,
+    "style_eligible": 5,
+    "semantic": {
+      "id": "E0472",
+      "meaning_score": 0.548782229423523,
+      "style_distance": 0.6048025550958194
+    },
+    "divergent": {
+      "id": "B0047",
+      "meaning_score": 0.4134625196456909,
+      "style_distance": 1.0599638973957364,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K061",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "内容和细节上升了与向对方暗示你懂的意思不同。人像摄影换成特效图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K068",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "动画人物和关于表情包的字幕没有传达双方心照不宣。"
+    }
+  },
+  {
+    "query": "Z037",
+    "source_query": "求你",
+    "reference_family": "daily|support",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z038",
+    "source_query": "有好新闻",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "laugh",
+    "family_candidates": 54,
+    "interchangeable": 54,
+    "style_eligible": 34,
+    "semantic": {
+      "id": "E0535",
+      "meaning_score": 0.464826375246048,
+      "style_distance": 0.8509228687400112,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0109",
+      "meaning_score": 0.3348965644836426,
+      "style_distance": 1.0073978985123713,
+      "meaning_rank": 34
+    },
+    "semantic_rating": {
+      "blind_id": "K073",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "祝人得好运与告诉对方有好新闻不是一回事。儿童照片换成动画图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K010",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "科研笑脸标志没有宣布好消息。孩子照片和蓝色徽章风格明显不同。"
+    }
+  },
+  {
+    "query": "Z039",
+    "source_query": "不开心",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z040",
+    "source_query": "炸弹",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z041",
+    "source_query": "震惊",
+    "reference_family": "question",
+    "method": "27",
+    "group": "surprise",
+    "family_candidates": 23,
+    "interchangeable": 23,
+    "style_eligible": 18,
+    "semantic": {
+      "id": "E0568",
+      "meaning_score": 0.7693206667900085,
+      "style_distance": 0.5774578831896999
+    },
+    "divergent": {
+      "id": "E0069",
+      "meaning_score": 0.6830048561096191,
+      "style_distance": 1.1239629664480217,
+      "meaning_rank": 8
+    },
+    "semantic_rating": {
+      "blind_id": "K055",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都能作震惊反应，白底日系人物的表情和美式动画的眼球夸张有明显画法差异。"
+    },
+    "divergent_rating": {
+      "blind_id": "K071",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "突然大叫的鸟可以像原图一样表达震惊。卡通人物换成加涂鸦和配字的鸟照片。"
+    }
+  },
+  {
+    "query": "Z042",
+    "source_query": "投降",
+    "reference_family": "response",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z043",
+    "source_query": "威胁",
+    "reference_family": "objection",
+    "method": "27",
+    "group": "attack",
+    "family_candidates": 54,
+    "interchangeable": 54,
+    "style_eligible": 48,
+    "semantic": {
+      "id": "E0243",
+      "meaning_score": 0.7021126747131348,
+      "style_distance": 0.878576826705222,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0425",
+      "meaning_score": 0.48096299171447754,
+      "style_distance": 1.0460475428988207,
+      "meaning_rank": 28
+    },
+    "semantic_rating": {
+      "blind_id": "K034",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "牢里见能作为带威胁意味的回应。女孩照片换成黑白熊猫头图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K075",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "配字针对特定第三人发泄不满，难以替代对聊天对象摆出威胁。照片换成黑白表情。"
+    }
+  },
+  {
+    "query": "Z044",
+    "source_query": "红头发小女孩",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z045",
+    "source_query": "吐血",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z046",
+    "source_query": "吃早餐了",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 11,
+    "semantic": {
+      "id": "E0579",
+      "meaning_score": 0.5958184599876404,
+      "style_distance": 0.794197043015753,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0284",
+      "meaning_score": 0.5683520436286926,
+      "style_distance": 1.017609580448253,
+      "meaning_rank": 5
+    },
+    "semantic_rating": {
+      "blind_id": "K040",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "食欲变强没有吃早餐这个时间和动作。手绘角色换成特效照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K069",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "锅里还有食物没有说明自己吃了早餐。插画换成影视字幕画面。"
+    }
+  },
+  {
+    "query": "Z047",
+    "source_query": "老天爷啊",
+    "reference_family": "question|distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z048",
+    "source_query": "睡觉",
+    "reference_family": "social|daily",
+    "method": "27",
+    "group": "sleep",
+    "family_candidates": 10,
+    "interchangeable": 10,
+    "style_eligible": 9,
+    "semantic": {
+      "id": "E0408",
+      "meaning_score": 0.7156720161437988,
+      "style_distance": 0.7172869295545393,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0215",
+      "meaning_score": 0.4970110058784485,
+      "style_distance": 1.1635475782284115,
+      "meaning_rank": 7
+    },
+    "semantic_rating": {
+      "blind_id": "K054",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "一个已在被子里睡了，另一个说好困，有时能前后相接，未必能互换。"
+    },
+    "divergent_rating": {
+      "blind_id": "K056",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "提醒三点喝茶不表达要睡觉。日系绘画换成照片拼贴。"
+    }
+  },
+  {
+    "query": "Z049",
+    "source_query": "泪流满面",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 13,
+    "semantic": {
+      "id": "E0346",
+      "meaning_score": 0.677787184715271,
+      "style_distance": 0.37725560273762515
+    },
+    "divergent": {
+      "id": "E0603",
+      "meaning_score": 0.42190176248550415,
+      "style_distance": 1.0838041202189455,
+      "meaning_rank": 15
+    },
+    "semantic_rating": {
+      "blind_id": "K016",
+      "intent": "yes",
+      "style": "no",
+      "same_template": "no",
+      "observation": "两张都可以表示眼泪直流，均为白底、少量颜色的夸张手绘。"
+    },
+    "divergent_rating": {
+      "blind_id": "K019",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "说男人会令人伤心与表达自己泪流满面不同。线条小人换成影视画面。"
+    }
+  },
+  {
+    "query": "Z050",
+    "source_query": "盯着",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z051",
+    "source_query": "难过",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "E0018",
+      "meaning_score": 0.6633937358856201,
+      "style_distance": 0.819128226535401,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0018",
+      "meaning_score": 0.6633937358856201,
+      "style_distance": 0.819128226535401,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K086",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "坐着流泪的狗和眼里含泪的小人都可以表达自己难过，照片换成极简线稿。"
+    },
+    "divergent_rating": {
+      "blind_id": "K086",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "坐着流泪的狗和眼里含泪的小人都可以表达自己难过，照片换成极简线稿。"
+    }
+  },
+  {
+    "query": "Z052",
+    "source_query": "这是我",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z053",
+    "source_query": "爱心",
+    "reference_family": "support",
+    "method": "27",
+    "group": "love",
+    "family_candidates": 33,
+    "interchangeable": 33,
+    "style_eligible": 28,
+    "semantic": {
+      "id": "B0046",
+      "meaning_score": 0.6277445554733276,
+      "style_distance": 0.6938949290395617,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0720",
+      "meaning_score": 0.5555816888809204,
+      "style_distance": 1.1042007798724978,
+      "meaning_rank": 8
+    },
+    "semantic_rating": {
+      "blind_id": "K042",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "人物身边的小心和卡通猫抛出的心都能表达爱心。白底日系人物换成彩色动画场景。"
+    },
+    "divergent_rating": {
+      "blind_id": "K030",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都用心形传达喜欢，白底少女插画换成动物照片加字幕。"
+    }
+  },
+  {
+    "query": "Z054",
+    "source_query": "帅气",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z055",
+    "source_query": "不知道",
+    "reference_family": "question|response",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z056",
+    "source_query": "不敢相信",
+    "reference_family": "question",
+    "method": "27",
+    "group": "doubt",
+    "family_candidates": 16,
+    "interchangeable": 16,
+    "style_eligible": 16,
+    "semantic": {
+      "id": "B0251",
+      "meaning_score": 0.6587361693382263,
+      "style_distance": 1.129795084230615,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0030",
+      "meaning_score": 0.5695827007293701,
+      "style_distance": 1.1890509747928055,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K078",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "右侧人物对话的态度不足以确定惊讶到不敢相信。立体符号换成对白插画。"
+    },
+    "divergent_rating": {
+      "blind_id": "K080",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选图可用来质疑网上名言，不能确定是否适用于一般的震惊或不敢相信。"
+    }
+  },
+  {
+    "query": "Z057",
+    "source_query": "偷看",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z058",
+    "source_query": "躺着",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "tired",
+    "family_candidates": 9,
+    "interchangeable": 9,
+    "style_eligible": 8,
+    "semantic": {
+      "id": "B0475",
+      "meaning_score": 0.656052827835083,
+      "style_distance": 1.0036800140573163,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0749",
+      "meaning_score": 0.3847420811653137,
+      "style_distance": 1.1008756560074044,
+      "meaning_rank": 6
+    },
+    "semantic_rating": {
+      "blind_id": "K077",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两只小猪都躺着，可以直接表达自己正在躺着。简笔画换成实拍，未见同一底图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K088",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "这地方没劲了在评价一个地方，没有表示自己正躺着。插画换成演讲截图。"
+    }
+  },
+  {
+    "query": "Z059",
+    "source_query": "墨镜",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z060",
+    "source_query": "笑",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "laugh",
+    "family_candidates": 54,
+    "interchangeable": 54,
+    "style_eligible": 50,
+    "semantic": {
+      "id": "B0032",
+      "meaning_score": 0.6580297946929932,
+      "style_distance": 1.1681845180699297,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0404",
+      "meaning_score": 0.5463017225265503,
+      "style_distance": 1.2382890487020297,
+      "meaning_rank": 23
+    },
+    "semantic_rating": {
+      "blind_id": "K003",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "都能直接表达笑。卡通脸换成真人大笑的照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K074",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "右图两人确实在大笑，可以当笑的反应图。绘画换成节目截图。"
+    }
+  },
+  {
+    "query": "Z061",
+    "source_query": "惊恐",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z062",
+    "source_query": "小哭",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 13,
+    "semantic": {
+      "id": "E0741",
+      "meaning_score": 0.6335370540618896,
+      "style_distance": 0.9120763381349447,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0603",
+      "meaning_score": 0.3385191559791565,
+      "style_distance": 1.0455529843840499,
+      "meaning_rank": 17
+    },
+    "semantic_rating": {
+      "blind_id": "K002",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "偏轻的哭意相近。立体符号换成含泪的动画人物。"
+    },
+    "divergent_rating": {
+      "blind_id": "K021",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "关于伤心原因的判断不能替代自己轻轻哭的反应。符号换成实拍。"
+    }
+  },
+  {
+    "query": "Z063",
+    "source_query": "拥抱",
+    "reference_family": "support",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z064",
+    "source_query": "枪击",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z065",
+    "source_query": "探头",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z066",
+    "source_query": "满头大汗",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z067",
+    "source_query": "吃蛋糕",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 12,
+    "semantic": {
+      "id": "E0238",
+      "meaning_score": 0.5463919639587402,
+      "style_distance": 0.9633686805706297,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0399",
+      "meaning_score": 0.5307688117027283,
+      "style_distance": 1.031097087854397,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K012",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "吃蛋糕和给对方吃的动作与方向不同。游戏插画换成真人照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K043",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "饭碗配字说只吃了一碗饭，所说的食物与吃蛋糕不同。插画换成食物照片。"
+    }
+  },
+  {
+    "query": "Z068",
+    "source_query": "看书",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z069",
+    "source_query": "艾伦",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z070",
+    "source_query": "你说得对",
+    "reference_family": "response",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z071",
+    "source_query": "在听",
+    "reference_family": "response|support",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z072",
+    "source_query": "我的天啊",
+    "reference_family": "question",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z073",
+    "source_query": "饿了",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 12,
+    "semantic": {
+      "id": "B0356",
+      "meaning_score": 0.6587702035903931,
+      "style_distance": 0.7251785687880508,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0144",
+      "meaning_score": 0.5094383358955383,
+      "style_distance": 1.0452242263524252,
+      "meaning_rank": 10
+    },
+    "semantic_rating": {
+      "blind_id": "K018",
+      "intent": "no",
+      "style": "no",
+      "same_template": "no",
+      "observation": "前者说自己饿，后者询问对方还饿不饿，主客不同。均为摄影配图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K015",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选图在享受进食，可能用于表示想吃，也可能表示已经吃到了。"
+    }
+  },
+  {
+    "query": "Z074",
+    "source_query": "喝啤酒",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z075",
+    "source_query": "额",
+    "reference_family": "distress|question",
+    "method": "27",
+    "group": "money",
+    "family_candidates": 26,
+    "interchangeable": 26,
+    "style_eligible": 18,
+    "semantic": {
+      "id": "E0282",
+      "meaning_score": 0.5196332931518555,
+      "style_distance": 0.7448996695521568,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0290",
+      "meaning_score": 0.34584611654281616,
+      "style_distance": 1.1077106895790436,
+      "meaning_rank": 23
+    },
+    "semantic_rating": {
+      "blind_id": "K024",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "原图犹豫语塞，候选图明确在说钱多更好。彩色动画换成黑白图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K081",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "原图语塞，先交学费是具体要求。动画换成真人配字。"
+    }
+  },
+  {
+    "query": "Z076",
+    "source_query": "击毙你",
+    "reference_family": "objection",
+    "method": "27",
+    "group": "attack",
+    "family_candidates": 54,
+    "interchangeable": 54,
+    "style_eligible": 50,
+    "semantic": {
+      "id": "E0026",
+      "meaning_score": 0.5636521577835083,
+      "style_distance": 0.6802458500657623,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0583",
+      "meaning_score": 0.36967623233795166,
+      "style_distance": 1.1230576324424348,
+      "meaning_rank": 33
+    },
+    "semantic_rating": {
+      "blind_id": "K027",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两者都可以用夸张的射击动作表达这句玩笑，猫咪照片拼贴换成黑白熊猫头。"
+    },
+    "divergent_rating": {
+      "blind_id": "K076",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "对对方发怒或说不会原谅，与原图所说的威胁有别。照片拼贴换成动画截图。"
+    }
+  },
+  {
+    "query": "Z077",
+    "source_query": "中枪",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z078",
+    "source_query": "奸笑",
+    "reference_family": "joy|objection",
+    "method": "27",
+    "group": "grin",
+    "family_candidates": 32,
+    "interchangeable": 32,
+    "style_eligible": 23,
+    "semantic": {
+      "id": "B0101",
+      "meaning_score": 0.535615861415863,
+      "style_distance": 0.9690874944088382,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0218",
+      "meaning_score": 0.5011210441589355,
+      "style_distance": 1.0189586710888852,
+      "meaning_rank": 8
+    },
+    "semantic_rating": {
+      "blind_id": "K087",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "真人一抿嘴可能是得意、克制或假笑，只看这一帧难定为奸笑。"
+    },
+    "divergent_rating": {
+      "blind_id": "K085",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "右边小人张嘴发愣，没有传达原图狡黠的笑。漫画截图换成极简线稿。"
+    }
+  },
+  {
+    "query": "Z079",
+    "source_query": "很忙",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "tired",
+    "family_candidates": 9,
+    "interchangeable": 9,
+    "style_eligible": 7,
+    "semantic": {
+      "id": "E0143",
+      "meaning_score": 0.45827561616897583,
+      "style_distance": 0.9771843958114528,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0749",
+      "meaning_score": 0.4097409248352051,
+      "style_distance": 0.9800721201855122,
+      "meaning_rank": 5
+    },
+    "semantic_rating": {
+      "blind_id": "K036",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "很忙与一点想工作的动力都没有不等价。卡通鸭换成真人照片加字幕。"
+    },
+    "divergent_rating": {
+      "blind_id": "K066",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "这地方没劲了表达无聊，与说自己很忙不同。简笔鸭子换成真人讲座画面。"
+    }
+  },
+  {
+    "query": "Z080",
+    "source_query": "借酒消愁",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z081",
+    "source_query": "跑路",
+    "reference_family": "social",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z082",
+    "source_query": "心碎小人",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "cry",
+    "family_candidates": 18,
+    "interchangeable": 18,
+    "style_eligible": 7,
+    "semantic": {
+      "id": "E0486",
+      "meaning_score": 0.42140039801597595,
+      "style_distance": 0.8127104624918895,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0142",
+      "meaning_score": 0.29357415437698364,
+      "style_distance": 0.9908064319473694,
+      "meaning_rank": 18
+    },
+    "semantic_rating": {
+      "blind_id": "K026",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "给我看哭了可能是感动也可能是难过，不能从候选图确定心碎。"
+    },
+    "divergent_rating": {
+      "blind_id": "K072",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "为什么这样对鸭鸭是在抱屈，原图明确表示心碎，情绪接近但用途有别。"
+    }
+  },
+  {
+    "query": "Z083",
+    "source_query": "盯",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z084",
+    "source_query": "突然出现",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "surprise",
+    "family_candidates": 23,
+    "interchangeable": 23,
+    "style_eligible": 23,
+    "semantic": {
+      "id": "B0052",
+      "meaning_score": 0.7047269344329834,
+      "style_distance": 0.9785883458341419,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0189",
+      "meaning_score": 0.528649091720581,
+      "style_distance": 1.2210769567440134,
+      "meaning_rank": 13
+    },
+    "semantic_rating": {
+      "blind_id": "K011",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "从门后探出头是出现，动画人物是看到事情后惊呼。"
+    },
+    "divergent_rating": {
+      "blind_id": "K041",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都可以用从门边冒头的动作表示自己突然出现。照片换成动画。"
+    }
+  },
+  {
+    "query": "Z085",
+    "source_query": "深度思考",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z086",
+    "source_query": "喝酒",
+    "reference_family": "daily",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z087",
+    "source_query": "就决定是你了",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z088",
+    "source_query": "憋笑",
+    "reference_family": "joy|distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z089",
+    "source_query": "好吃",
+    "reference_family": "daily|joy",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 12,
+    "semantic": {
+      "id": "B0144",
+      "meaning_score": 0.7177972197532654,
+      "style_distance": 0.4923659025430921
+    },
+    "divergent": {
+      "id": "B0343",
+      "meaning_score": 0.6286981105804443,
+      "style_distance": 1.0012333823117079,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K089",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张图都能表示食物很好吃。复杂的游戏宴席画面换成轮廓鲜明的漫画人物享用食物。"
+    },
+    "divergent_rating": {
+      "blind_id": "K091",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "特辣特别快乐形容辣与快乐，没有直接表示味道好。游戏场景换成配字熊猫头。"
+    }
+  },
+  {
+    "query": "Z090",
+    "source_query": "泄气",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z091",
+    "source_query": "可爱",
+    "reference_family": "uncertain",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z092",
+    "source_query": "吃瓜",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "hungry",
+    "family_candidates": 15,
+    "interchangeable": 15,
+    "style_eligible": 11,
+    "semantic": {
+      "id": "E0238",
+      "meaning_score": 0.5219231843948364,
+      "style_distance": 1.0506719450246143,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0238",
+      "meaning_score": 0.5219231843948364,
+      "style_distance": 1.0506719450246143,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K048",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "吃瓜看热闹与把食物给对方是不同意思。卡通换成照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K048",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "吃瓜看热闹与把食物给对方是不同意思。卡通换成照片。"
+    }
+  },
+  {
+    "query": "Z093",
+    "source_query": "看你",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z094",
+    "source_query": "咆哮",
+    "reference_family": "joy",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z095",
+    "source_query": "别看",
+    "reference_family": "objection",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z096",
+    "source_query": "不清楚",
+    "reference_family": "question|response",
+    "method": "27",
+    "group": "confused",
+    "family_candidates": 8,
+    "interchangeable": 8,
+    "style_eligible": 5,
+    "semantic": {
+      "id": "E0339",
+      "meaning_score": 0.6987864971160889,
+      "style_distance": 0.6076173760537119
+    },
+    "divergent": {
+      "id": "B0136",
+      "meaning_score": 0.5402064323425293,
+      "style_distance": 0.9367735771032395,
+      "meaning_rank": 7
+    },
+    "semantic_rating": {
+      "blind_id": "K022",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "带问号的困惑神情与原图的不清楚相符。三维电影角色换成模糊的动物图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K035",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "询问对方说了什么，可能因为没听清，未必表达对事情不清楚。三维角色换成极简线稿。"
+    }
+  },
+  {
+    "query": "Z097",
+    "source_query": "看地上",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z098",
+    "source_query": "哦？",
+    "reference_family": "question",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z099",
+    "source_query": "捂嘴",
+    "reference_family": "outside",
+    "method": "27",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z100",
+    "source_query": "不敢",
+    "reference_family": "distress",
+    "method": "27",
+    "group": "fear",
+    "family_candidates": 13,
+    "interchangeable": 13,
+    "style_eligible": 10,
+    "semantic": {
+      "id": "B0017",
+      "meaning_score": 0.5968931317329407,
+      "style_distance": 0.7129141730097767,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0161",
+      "meaning_score": 0.5035384297370911,
+      "style_distance": 1.0397394402026598,
+      "meaning_rank": 5
+    },
+    "semantic_rating": {
+      "blind_id": "K062",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "我哪敢说话可以用来表达不敢，暗色动画人物换成黄色符号脸配字。"
+    },
+    "divergent_rating": {
+      "blind_id": "K053",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "说不敢与把小被子拽走不是一个动作。动画截图换成符号图文。"
+    }
+  },
+  {
+    "query": "Z001",
+    "source_query": "委屈巴巴",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 6,
+    "style_eligible": 6,
+    "semantic": {
+      "id": "E0400",
+      "meaning_score": 0.6901746988296509,
+      "style_distance": 0.6815648375280929,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0142",
+      "meaning_score": 0.604619026184082,
+      "style_distance": 1.1297417933201446,
+      "meaning_rank": 5
+    },
+    "semantic_rating": {
+      "blind_id": "K001",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都在诉委屈。白底细线人物换成带字幕的动画截图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K014",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "鸭子的配字诉说受到委屈，和原图撒娇抱屈可以互换。绘画换成实拍。"
+    }
+  },
+  {
+    "query": "Z002",
+    "source_query": "好棒",
+    "reference_family": "support",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z003",
+    "source_query": "哭泣",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 5,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "E0486",
+      "meaning_score": 0.6733899712562561,
+      "style_distance": 1.0621410442081998,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0486",
+      "meaning_score": 0.6733899712562561,
+      "style_distance": 1.0621410442081998,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K067",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选的文字直接说在哭，可以用来表达原图的哭泣。卡通换成真人照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K067",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选的文字直接说在哭，可以用来表达原图的哭泣。卡通换成真人照片。"
+    }
+  },
+  {
+    "query": "Z004",
+    "source_query": "拽",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z005",
+    "source_query": "包袱",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z006",
+    "source_query": "呜呜",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z007",
+    "source_query": "冰天雪地",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z008",
+    "source_query": "听不清",
+    "reference_family": "question",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 3,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "B0122",
+      "meaning_score": 0.6587930917739868,
+      "style_distance": 0.9094929261108882,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0136",
+      "meaning_score": 0.6261557340621948,
+      "style_distance": 0.9625612888489815,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K070",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "带问号的主持人表示疑惑，也可能是没听明白，单看图不能确定是听不清。"
+    },
+    "divergent_rating": {
+      "blind_id": "K052",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "听不清时用拿电话问你说啥来请对方重复，交流目的相符。动画截图换成白底线稿。"
+    }
+  },
+  {
+    "query": "Z009",
+    "source_query": "哼",
+    "reference_family": "objection",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z010",
+    "source_query": "抱臂走路",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z011",
+    "source_query": "灰色衣服小孩",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z012",
+    "source_query": "干饭",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "daily",
+    "family_candidates": 47,
+    "interchangeable": 1,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "B0240",
+      "meaning_score": 0.6478590369224548,
+      "style_distance": 0.9219078912770803,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0240",
+      "meaning_score": 0.6478590369224548,
+      "style_distance": 0.9219078912770803,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K025",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张图都在大口吃东西，可以拿来表示干饭。精细上色换成简笔插画。"
+    },
+    "divergent_rating": {
+      "blind_id": "K025",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张图都在大口吃东西，可以拿来表示干饭。精细上色换成简笔插画。"
+    }
+  },
+  {
+    "query": "Z013",
+    "source_query": "肥猫大哭",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z014",
+    "source_query": "休息",
+    "reference_family": "social|daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z015",
+    "source_query": "闪耀登场",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z016",
+    "source_query": "伤心",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 2,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "E0486",
+      "meaning_score": 0.6155487895011902,
+      "style_distance": 0.8877224178370461,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0603",
+      "meaning_score": 0.6013756990432739,
+      "style_distance": 1.0738566187253307,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K051",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "自己伤心与被某事看哭了有交集，但后者也可能是感动。插画换成实拍。"
+    },
+    "divergent_rating": {
+      "blind_id": "K082",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "谈男人会使女人伤心与表达自己伤心不同。插画换成真人画面。"
+    }
+  },
+  {
+    "query": "Z017",
+    "source_query": "肥猫",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z018",
+    "source_query": "呆目",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z019",
+    "source_query": "观察",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z020",
+    "source_query": "小女孩",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z021",
+    "source_query": "黑发帅哥",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z022",
+    "source_query": "期待",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z023",
+    "source_query": "喝咖啡",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z024",
+    "source_query": "真的吗？",
+    "reference_family": "question",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z025",
+    "source_query": "情侣贴纸",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z026",
+    "source_query": "空洞",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z027",
+    "source_query": "小孩站着",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z028",
+    "source_query": "钻石",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z029",
+    "source_query": "嘻嘻",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z030",
+    "source_query": "别伤心",
+    "reference_family": "support",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z031",
+    "source_query": "鼠鼠背影",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z032",
+    "source_query": "崩溃",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 3,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "B0115",
+      "meaning_score": 0.6345734596252441,
+      "style_distance": 0.7346567101780097,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0462",
+      "meaning_score": 0.6288575530052185,
+      "style_distance": 0.7645565331470425,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K050",
+      "intent": "yes",
+      "style": "no",
+      "same_template": "no",
+      "observation": "猫大喊与戏剧人物反复喊不活了都能夸张表示崩溃；两者的呈现都是实拍加字幕。"
+    },
+    "divergent_rating": {
+      "blind_id": "K057",
+      "intent": "uncertain",
+      "style": "no",
+      "same_template": "no",
+      "observation": "悬着的企鹅玩偶可能被当作崩溃玩笑，缺少明确用意。两张都是拍摄的物体或动物。"
+    }
+  },
+  {
+    "query": "Z033",
+    "source_query": "可怜",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z034",
+    "source_query": "淡淡的死感",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z035",
+    "source_query": "施法",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z036",
+    "source_query": "你懂的",
+    "reference_family": "response",
+    "method": "8",
+    "group": "response",
+    "family_candidates": 13,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z037",
+    "source_query": "求你",
+    "reference_family": "daily|support",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z038",
+    "source_query": "有好新闻",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z039",
+    "source_query": "不开心",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z040",
+    "source_query": "炸弹",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z041",
+    "source_query": "震惊",
+    "reference_family": "question",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 17,
+    "style_eligible": 14,
+    "semantic": {
+      "id": "E0568",
+      "meaning_score": 0.7693206667900085,
+      "style_distance": 0.5774578831896999
+    },
+    "divergent": {
+      "id": "E0069",
+      "meaning_score": 0.6830048561096191,
+      "style_distance": 1.1239629664480217,
+      "meaning_rank": 9
+    },
+    "semantic_rating": {
+      "blind_id": "K055",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都能作震惊反应，白底日系人物的表情和美式动画的眼球夸张有明显画法差异。"
+    },
+    "divergent_rating": {
+      "blind_id": "K071",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "突然大叫的鸟可以像原图一样表达震惊。卡通人物换成加涂鸦和配字的鸟照片。"
+    }
+  },
+  {
+    "query": "Z042",
+    "source_query": "投降",
+    "reference_family": "response",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z043",
+    "source_query": "威胁",
+    "reference_family": "objection",
+    "method": "8",
+    "group": "objection",
+    "family_candidates": 152,
+    "interchangeable": 12,
+    "style_eligible": 12,
+    "semantic": {
+      "id": "E0243",
+      "meaning_score": 0.7021126747131348,
+      "style_distance": 0.878576826705222,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0204",
+      "meaning_score": 0.630066990852356,
+      "style_distance": 1.0456768360602446,
+      "meaning_rank": 10
+    },
+    "semantic_rating": {
+      "blind_id": "K034",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "牢里见能作为带威胁意味的回应。女孩照片换成黑白熊猫头图文。"
+    },
+    "divergent_rating": {
+      "blind_id": "K044",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "配字直接向对方放狠话，与威胁相符。照片换成黑白带字线条人物。"
+    }
+  },
+  {
+    "query": "Z044",
+    "source_query": "红头发小女孩",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z045",
+    "source_query": "吐血",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z046",
+    "source_query": "吃早餐了",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z047",
+    "source_query": "老天爷啊",
+    "reference_family": "question|distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z048",
+    "source_query": "睡觉",
+    "reference_family": "social|daily",
+    "method": "8",
+    "group": "social",
+    "family_candidates": 16,
+    "interchangeable": 3,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "E0408",
+      "meaning_score": 0.7156720161437988,
+      "style_distance": 0.7172869295545393,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0460",
+      "meaning_score": 0.6770643591880798,
+      "style_distance": 1.0170939513291712,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K054",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "一个已在被子里睡了，另一个说好困，有时能前后相接，未必能互换。"
+    },
+    "divergent_rating": {
+      "blind_id": "K020",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都可以直接告知对方要睡了。日系白底插画换成带字幕的传统动画截图。"
+    }
+  },
+  {
+    "query": "Z049",
+    "source_query": "泪流满面",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 2,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "E0346",
+      "meaning_score": 0.677787184715271,
+      "style_distance": 0.37725560273762515
+    },
+    "divergent": {
+      "id": "E0486",
+      "meaning_score": 0.601800262928009,
+      "style_distance": 0.9736713480764206,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K016",
+      "intent": "yes",
+      "style": "no",
+      "same_template": "no",
+      "observation": "两张都可以表示眼泪直流，均为白底、少量颜色的夸张手绘。"
+    },
+    "divergent_rating": {
+      "blind_id": "K064",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "给我看哭了可以用来形容当场落泪，两者都是在表达自己的哭泣。线条图换成真人画面。"
+    }
+  },
+  {
+    "query": "Z050",
+    "source_query": "盯着",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z051",
+    "source_query": "难过",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 7,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "B0249",
+      "meaning_score": 0.7297475337982178,
+      "style_distance": 0.7425383752951571,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0249",
+      "meaning_score": 0.7297475337982178,
+      "style_distance": 0.7425383752951571,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K037",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选图里的生物趴在雪地，单看这个场面难以确定它是否在表达难过。原图是配字狗照片。"
+    },
+    "divergent_rating": {
+      "blind_id": "K037",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "候选图里的生物趴在雪地，单看这个场面难以确定它是否在表达难过。原图是配字狗照片。"
+    }
+  },
+  {
+    "query": "Z052",
+    "source_query": "这是我",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z053",
+    "source_query": "爱心",
+    "reference_family": "support",
+    "method": "8",
+    "group": "support",
+    "family_candidates": 87,
+    "interchangeable": 3,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "B0046",
+      "meaning_score": 0.6277445554733276,
+      "style_distance": 0.6938949290395617,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0468",
+      "meaning_score": 0.6149797439575195,
+      "style_distance": 1.0534784399316266,
+      "meaning_rank": 3
+    },
+    "semantic_rating": {
+      "blind_id": "K042",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "人物身边的小心和卡通猫抛出的心都能表达爱心。白底日系人物换成彩色动画场景。"
+    },
+    "divergent_rating": {
+      "blind_id": "K084",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都直接用心形传达喜欢；日系插画换成满屏彩色心形的真人图。"
+    }
+  },
+  {
+    "query": "Z054",
+    "source_query": "帅气",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "joy",
+    "family_candidates": 76,
+    "interchangeable": 1,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "B0147",
+      "meaning_score": 0.6465655565261841,
+      "style_distance": 0.9337384939933688,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0147",
+      "meaning_score": 0.6465655565261841,
+      "style_distance": 0.9337384939933688,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K047",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "自称最靓的仔能用来表达帅气，黑白人物绘画换成真人舞台图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K047",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "自称最靓的仔能用来表达帅气，黑白人物绘画换成真人舞台图。"
+    }
+  },
+  {
+    "query": "Z055",
+    "source_query": "不知道",
+    "reference_family": "question|response",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z056",
+    "source_query": "不敢相信",
+    "reference_family": "question",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 3,
+    "style_eligible": 3,
+    "semantic": {
+      "id": "B0379",
+      "meaning_score": 0.6651818156242371,
+      "style_distance": 0.8268814528185677,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0092",
+      "meaning_score": 0.6425652503967285,
+      "style_distance": 1.1103476931586047,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K049",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "真人神情可能是愣住了，也可能只是在注视。与掩嘴的不敢相信未必相同。"
+    },
+    "divergent_rating": {
+      "blind_id": "K090",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "人物双手捂胸说我的天，能接上不敢相信的场合。表情符号换成情景剧照片。"
+    }
+  },
+  {
+    "query": "Z057",
+    "source_query": "偷看",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z058",
+    "source_query": "躺着",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 1,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "B0475",
+      "meaning_score": 0.656052827835083,
+      "style_distance": 1.0036800140573163,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0475",
+      "meaning_score": 0.656052827835083,
+      "style_distance": 1.0036800140573163,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K077",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两只小猪都躺着，可以直接表达自己正在躺着。简笔画换成实拍，未见同一底图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K077",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两只小猪都躺着，可以直接表达自己正在躺着。简笔画换成实拍，未见同一底图。"
+    }
+  },
+  {
+    "query": "Z059",
+    "source_query": "墨镜",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z060",
+    "source_query": "笑",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 2,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "B0116",
+      "meaning_score": 0.6427575945854187,
+      "style_distance": 0.9259720452600255,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0637",
+      "meaning_score": 0.6011415719985962,
+      "style_distance": 1.1070295947685134,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K045",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张都能表达笑，日系人物截图换成排列的黄色笑脸符号。"
+    },
+    "divergent_rating": {
+      "blind_id": "K039",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "原图开怀笑，真人图明写假笑，会改变表达的态度。"
+    }
+  },
+  {
+    "query": "Z061",
+    "source_query": "惊恐",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z062",
+    "source_query": "小哭",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 1,
+    "style_eligible": 1,
+    "semantic": {
+      "id": "E0741",
+      "meaning_score": 0.6335370540618896,
+      "style_distance": 0.9120763381349447,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0741",
+      "meaning_score": 0.6335370540618896,
+      "style_distance": 0.9120763381349447,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K002",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "偏轻的哭意相近。立体符号换成含泪的动画人物。"
+    },
+    "divergent_rating": {
+      "blind_id": "K002",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "偏轻的哭意相近。立体符号换成含泪的动画人物。"
+    }
+  },
+  {
+    "query": "Z063",
+    "source_query": "拥抱",
+    "reference_family": "support",
+    "method": "8",
+    "group": "support",
+    "family_candidates": 87,
+    "interchangeable": 2,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "E0449",
+      "meaning_score": 0.6962525844573975,
+      "style_distance": 1.0908640406460544,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0311",
+      "meaning_score": 0.6040198802947998,
+      "style_distance": 1.1604918332080767,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K023",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "抱着对方和抱猫加上“抱”都在传达拥抱。卡通换成实拍。"
+    },
+    "divergent_rating": {
+      "blind_id": "K007",
+      "intent": "uncertain",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "青蛙主动拥抱，孩子写着需要抱抱，方向可能相反。"
+    }
+  },
+  {
+    "query": "Z064",
+    "source_query": "枪击",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z065",
+    "source_query": "探头",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z066",
+    "source_query": "满头大汗",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z067",
+    "source_query": "吃蛋糕",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z068",
+    "source_query": "看书",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z069",
+    "source_query": "艾伦",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z070",
+    "source_query": "你说得对",
+    "reference_family": "response",
+    "method": "8",
+    "group": "response",
+    "family_candidates": 13,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z071",
+    "source_query": "在听",
+    "reference_family": "response|support",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z072",
+    "source_query": "我的天啊",
+    "reference_family": "question",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z073",
+    "source_query": "饿了",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "daily",
+    "family_candidates": 47,
+    "interchangeable": 3,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "B0356",
+      "meaning_score": 0.6587702035903931,
+      "style_distance": 0.7251785687880508,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "E0284",
+      "meaning_score": 0.6399239301681519,
+      "style_distance": 0.8967645388905857,
+      "meaning_rank": 2
+    },
+    "semantic_rating": {
+      "blind_id": "K018",
+      "intent": "no",
+      "style": "no",
+      "same_template": "no",
+      "observation": "前者说自己饿，后者询问对方还饿不饿，主客不同。均为摄影配图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K008",
+      "intent": "no",
+      "style": "no",
+      "same_template": "no",
+      "observation": "猫表示自己饿，锅里还没吃完是在说还有食物，并未表达饥饿。均为实拍。"
+    }
+  },
+  {
+    "query": "Z074",
+    "source_query": "喝啤酒",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z075",
+    "source_query": "额",
+    "reference_family": "distress|question",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z076",
+    "source_query": "击毙你",
+    "reference_family": "objection",
+    "method": "8",
+    "group": "objection",
+    "family_candidates": 152,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z077",
+    "source_query": "中枪",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z078",
+    "source_query": "奸笑",
+    "reference_family": "joy|objection",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z079",
+    "source_query": "很忙",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z080",
+    "source_query": "借酒消愁",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z081",
+    "source_query": "跑路",
+    "reference_family": "social",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z082",
+    "source_query": "心碎小人",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z083",
+    "source_query": "盯",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z084",
+    "source_query": "突然出现",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 4,
+    "style_eligible": 4,
+    "semantic": {
+      "id": "B0052",
+      "meaning_score": 0.7047269344329834,
+      "style_distance": 0.9785883458341419,
+      "meaning_rank": 1
+    },
+    "divergent": {
+      "id": "B0052",
+      "meaning_score": 0.7047269344329834,
+      "style_distance": 0.9785883458341419,
+      "meaning_rank": 1
+    },
+    "semantic_rating": {
+      "blind_id": "K011",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "从门后探出头是出现，动画人物是看到事情后惊呼。"
+    },
+    "divergent_rating": {
+      "blind_id": "K011",
+      "intent": "no",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "从门后探出头是出现，动画人物是看到事情后惊呼。"
+    }
+  },
+  {
+    "query": "Z085",
+    "source_query": "深度思考",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z086",
+    "source_query": "喝酒",
+    "reference_family": "daily",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z087",
+    "source_query": "就决定是你了",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z088",
+    "source_query": "憋笑",
+    "reference_family": "joy|distress",
+    "method": "8",
+    "group": "joy",
+    "family_candidates": 76,
+    "interchangeable": 1,
+    "style_eligible": 0,
+    "semantic": {
+      "id": "B0033",
+      "meaning_score": 0.6277506351470947,
+      "style_distance": 0.38061320012365196
+    },
+    "divergent": null,
+    "semantic_rating": {
+      "blind_id": "K046",
+      "intent": "no",
+      "style": "no",
+      "same_template": "no",
+      "observation": "原词强调努力忍住笑，右边已经笑开。两张都是人物照片。"
+    },
+    "divergent_rating": null
+  },
+  {
+    "query": "Z089",
+    "source_query": "好吃",
+    "reference_family": "daily|joy",
+    "method": "8",
+    "group": "daily",
+    "family_candidates": 47,
+    "interchangeable": 1,
+    "style_eligible": 0,
+    "semantic": {
+      "id": "B0144",
+      "meaning_score": 0.7177972197532654,
+      "style_distance": 0.4923659025430921
+    },
+    "divergent": null,
+    "semantic_rating": {
+      "blind_id": "K089",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "两张图都能表示食物很好吃。复杂的游戏宴席画面换成轮廓鲜明的漫画人物享用食物。"
+    },
+    "divergent_rating": null
+  },
+  {
+    "query": "Z090",
+    "source_query": "泄气",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z091",
+    "source_query": "可爱",
+    "reference_family": "uncertain",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z092",
+    "source_query": "吃瓜",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z093",
+    "source_query": "看你",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "support",
+    "family_candidates": 87,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z094",
+    "source_query": "咆哮",
+    "reference_family": "joy",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z095",
+    "source_query": "别看",
+    "reference_family": "objection",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z096",
+    "source_query": "不清楚",
+    "reference_family": "question|response",
+    "method": "8",
+    "group": "question",
+    "family_candidates": 65,
+    "interchangeable": 4,
+    "style_eligible": 2,
+    "semantic": {
+      "id": "E0339",
+      "meaning_score": 0.6987864971160889,
+      "style_distance": 0.6076173760537119
+    },
+    "divergent": {
+      "id": "E0047",
+      "meaning_score": 0.6362481117248535,
+      "style_distance": 0.9240202797336659,
+      "meaning_rank": 4
+    },
+    "semantic_rating": {
+      "blind_id": "K022",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "带问号的困惑神情与原图的不清楚相符。三维电影角色换成模糊的动物图。"
+    },
+    "divergent_rating": {
+      "blind_id": "K060",
+      "intent": "yes",
+      "style": "yes",
+      "same_template": "no",
+      "observation": "一脸懵可以用来回应自己不清楚情况，三维人物换成白底图文。"
+    }
+  },
+  {
+    "query": "Z097",
+    "source_query": "看地上",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z098",
+    "source_query": "哦？",
+    "reference_family": "question",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z099",
+    "source_query": "捂嘴",
+    "reference_family": "outside",
+    "method": "8",
+    "group": "",
+    "family_candidates": 0,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  },
+  {
+    "query": "Z100",
+    "source_query": "不敢",
+    "reference_family": "distress",
+    "method": "8",
+    "group": "distress",
+    "family_candidates": 166,
+    "interchangeable": 0,
+    "style_eligible": 0,
+    "semantic": null,
+    "divergent": null,
+    "semantic_rating": null,
+    "divergent_rating": null
+  }
+]

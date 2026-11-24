@@ -1,0 +1,4 @@
+{
+  "desc": "小屿研究原型",
+  "rules": [{ "action": "disallow", "page": "*" }]
+}

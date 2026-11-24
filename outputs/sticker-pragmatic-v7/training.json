@@ -1,0 +1,45 @@
+{
+  "implementation": "xiaoyu-pragmatic-eight-v7",
+  "sha256": "2e58befc027197e822e9c778a5a7c85f952e9e05f5ab8d7337a21edaf41fabc9",
+  "base": "a9076a1d854163c019472a5b67f3608bf526129cd242059a691e0613a457f454",
+  "n_families": 8,
+  "training_distinct_texts": 542,
+  "training_image_ids": 132,
+  "class_counts": {
+    "joy": 52,
+    "distress": 97,
+    "objection": 54,
+    "response": 36,
+    "question": 55,
+    "support": 86,
+    "social": 65,
+    "daily": 60,
+    "outside": 42
+  },
+  "development": {
+    "macro_f1": 0.8813402064974392,
+    "correct": 78,
+    "n": 91,
+    "returned": 61
+  },
+  "regularization": 0.08,
+  "minimum": 0.38,
+  "margin": 0.09,
+  "pair_floor": 0.6,
+  "pair_calibration": {
+    "n": 200,
+    "matches": 9,
+    "false_matches": 15,
+    "missed": 6
+  },
+  "selection": "Macro F1 including outside on development utterances; independent pair cutoff uses F-beta (beta squared = 0.5) on previous validation pairs.",
+  "inputs": {
+    "training-dialogues.tsv": "a8a2f59a00e5828c1911b4d2791348c5936e88bfbaa215776b6f64b8f7bd1c44",
+    "development-dialogues.tsv": "dc46c34da80be78e21b7c6b9d172817bec4fca835294ba1027bbb23a71d9e5a6",
+    "dialogues.json": "e9184013840ab216b97575ea1dcd11382f597afd22a230eb3a103d84c8f366a7",
+    "reviewed-training.json": "287bfd4d4f2351b19db76dc92fc51f78bfd986227a004468b35abda92d0a1b92",
+    "validation-judgments.json": "6c408665a2a5ba3a71800951ebf074fa60823ac0527b757897283db9dcfaf4f4",
+    "sticker_pragmatics.py": "6cec76d311ef4c24b1174cd5e5c3a6040d43e377a7c3500e9b57aefd7c3a2e30"
+  },
+  "frozen_external_sample": "a9235487eab700e72021de85dac2bd641ea847c65d695480c030f5ae8d995e0a"
+}

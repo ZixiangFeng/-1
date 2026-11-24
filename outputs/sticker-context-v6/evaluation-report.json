@@ -1,0 +1,99 @@
+{
+  "checkpoint_sha256": "a9076a1d854163c019472a5b67f3608bf526129cd242059a691e0613a457f454",
+  "test_exposure": "historical pack-separated holdout; excluded from fitting/selection",
+  "sample": "Within-test eligible cross-style choices, 10 per query. Pooled candidates drawn with frozen BGE, legacy score and ALADIN.",
+  "ratings": "Codex reviewed shuffled generic captions with no ranks or model names. Context-compatible, same communicative role; no participant/human judgments.",
+  "evaluated_stage": "meaning ranking on a fixed cross-style pool",
+  "ungated": {
+    "v5_fixed_score": {
+      "queries": 32,
+      "judged_pairs": 320,
+      "answerable": 11,
+      "positives": 18,
+      "ndcg5": 0.4635822747669503,
+      "hit1": 0.36363636363636365,
+      "hit5": 0.9090909090909091,
+      "pair_concordance": 0.6406926406926406,
+      "returned_queries": 32,
+      "returned5_precision": 0.06875,
+      "returned5_recall": 0.6111111111111112
+    },
+    "bge_no_training": {
+      "queries": 32,
+      "judged_pairs": 320,
+      "answerable": 11,
+      "positives": 18,
+      "ndcg5": 0.5908304213953606,
+      "hit1": 0.6363636363636364,
+      "hit5": 0.9090909090909091,
+      "pair_concordance": 0.722041847041847,
+      "returned_queries": 32,
+      "returned5_precision": 0.075,
+      "returned5_recall": 0.6666666666666666
+    },
+    "v6": {
+      "queries": 32,
+      "judged_pairs": 320,
+      "answerable": 11,
+      "positives": 18,
+      "ndcg5": 0.7165382874450112,
+      "hit1": 0.5454545454545454,
+      "hit5": 1.0,
+      "pair_concordance": 0.8179112554112554,
+      "returned_queries": 32,
+      "returned5_precision": 0.1,
+      "returned5_recall": 0.8888888888888888
+    }
+  },
+  "validation_cutoff": 0.6000000238418579,
+  "after_cutoff": {
+    "queries": 32,
+    "judged_pairs": 320,
+    "answerable": 11,
+    "positives": 18,
+    "ndcg5": 0.39804616634128,
+    "hit1": 0.45454545454545453,
+    "hit5": 0.5454545454545454,
+    "pair_concordance": 0.8179112554112554,
+    "returned_queries": 18,
+    "returned5_precision": 0.2,
+    "returned5_recall": 0.3888888888888889
+  },
+  "empty_truth_pools_returning": 9,
+  "corpus_coverage": {
+    "test": {
+      "queries": 150,
+      "queries_with_divergent_candidate": 123,
+      "median_candidates": 4.0
+    },
+    "validation": {
+      "queries": 150,
+      "queries_with_divergent_candidate": 118,
+      "median_candidates": 6.0
+    },
+    "train": {
+      "queries": 950,
+      "queries_with_divergent_candidate": 755,
+      "median_candidates": 5.0
+    }
+  },
+  "full_gallery": {
+    "queries": 14,
+    "gallery_size": 1250,
+    "review": "Random held-out queries, pooled top five from each native two-stage system, shuffled for Codex screenshot and caption review. No human ratings.",
+    "systems": {
+      "v5": {
+        "returned": 65,
+        "accepted": 4,
+        "queries_with_accepted": 3,
+        "returned_precision": 0.06153846153846154
+      },
+      "v6": {
+        "returned": 22,
+        "accepted": 3,
+        "queries_with_accepted": 2,
+        "returned_precision": 0.13636363636363635
+      }
+    }
+  }
+}

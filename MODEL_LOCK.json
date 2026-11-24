@@ -1,0 +1,137 @@
+{
+  "version": "pilot-0.2.0",
+  "runtime": {
+    "name": "Ollama",
+    "version": "0.34.0",
+    "sha256": "dd12b00bcce2d6551178e67ada90d5af9f75bdb54a118b96655250fa3e8ef734"
+  },
+  "chat": {
+    "upstream": "mradermacher/rolePlay_Qwen2.5-7B-GGUF",
+    "revision": "ae9ac836e1cb6e1b58c83757bd6bf80bf529935a",
+    "source_sha256": "d9fafed4be1e5cb0e932662a087bfc876709786e0ae61016761329b315392c5a",
+    "installed": [
+      {
+        "name": "expression-companion:latest",
+        "model": "expression-companion:latest",
+        "modified_at": "2026-09-15T18:59:20.69648924+08:00",
+        "size": 4683074269,
+        "digest": "f994c5835cb8fb4b9803b7bcf6021f746fab7992ef46c2c92de74ed580676ca3",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen2",
+          "families": [
+            "qwen2"
+          ],
+          "parameter_size": "7.6B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 131072,
+          "embedding_length": 3584
+        },
+        "capabilities": [
+          "completion"
+        ]
+      }
+    ]
+  },
+  "vision": {
+    "name": "qwen3-vl:2b",
+    "manifest": {
+      "schemaVersion": 2,
+      "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+      "config": {
+        "mediaType": "application/vnd.docker.container.image.v1+json",
+        "digest": "sha256:b1b0036de383cfacd2f6f0ec14c43139d08a215e673fadaf4f3601eac4bd5490",
+        "size": 551
+      },
+      "layers": [
+        {
+          "mediaType": "application/vnd.ollama.image.model",
+          "digest": "sha256:ebabfa59b71a5b96e0281ec2994977e785284e0939807a99fc340dec3c6f10de",
+          "size": 1889496384
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+          "size": 11355,
+          "from": "qwen3-vl:2b-thinking-bf16"
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.license",
+          "digest": "sha256:7339fa418c9ad3e8e12e74ad0fd26a9cc4be8703f9c110728a992b193be85cb2",
+          "size": 11355
+        },
+        {
+          "mediaType": "application/vnd.ollama.image.params",
+          "digest": "sha256:f6417cb1e26962991f8e875a93f3cb0f92bc9b4955e004881251ccbf934a19d2",
+          "size": 42
+        }
+      ]
+    },
+    "installed": [
+      {
+        "name": "qwen3-vl:2b",
+        "model": "qwen3-vl:2b",
+        "modified_at": "2026-09-16T09:52:04.121960624+08:00",
+        "size": 1889519687,
+        "digest": "0635d9d857d497aeadba3d7d27485746c50554446f9f6ec01ef39788221adbe8",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl"
+          ],
+          "parameter_size": "2.1B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 262144,
+          "embedding_length": 2048
+        },
+        "capabilities": [
+          "vision",
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      }
+    ]
+  },
+  "inference": {
+    "chat_num_ctx": 16384,
+    "vision_num_ctx": 4096,
+    "chat_temperature": 0.55,
+    "vision_temperature": 0.2,
+    "prompt_byte_budget": 15000,
+    "memory_byte_budget": 2500,
+    "chat_num_predict": 320,
+    "vision_num_predict": 1536,
+    "planner_model": "qwen3-vl:2b",
+    "planner_num_ctx": 8192,
+    "planner_num_predict": 512,
+    "planner_temperature": 0.2,
+    "generator_format": "plain text",
+    "planner_format": "raw ChatML with closed think prefix + JSON schema",
+    "final_review_model": "qwen3-vl:2b",
+    "final_review": "always"
+  },
+  "embedding": {
+    "model": "BAAI/bge-small-zh-v1.5",
+    "runtime": "FastEmbed 0.6.1 / ONNX CPU",
+    "revision": "46fbe35fd4374a00fee7de77dfddaeb6dd6a2c59",
+    "dimension": 512,
+    "files": {
+      "model_optimized.onnx": "1294ea4b6331115a353d81f96b85e8c8d7fdcc284453d5b2fab5b016230aad38",
+      "tokenizer_config.json": "e6f3b96db926a37d4039995fbf5ad17de158dfb8f6343d607e4dbaad18d75f5a",
+      "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "config.json": "9088751d39abbf86ec3d19ffca92ad62ad19075f7e59712e6c71217fa125d1d3",
+      "tokenizer.json": "48cea5d44424912a6fd1ea647bf4fe50b55ab8b1e5879c3275f80e339e8fae26"
+    }
+  },
+  "rag": {
+    "database": "Qdrant local 1.14.3",
+    "collection": "expression_memory_bge_zh_v1",
+    "similar_image_threshold": 0.65,
+    "threshold_calibrated": false,
+    "policy_version": "companion-0.2"
+  }
+}

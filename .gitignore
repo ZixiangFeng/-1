@@ -1,6 +1,7 @@
 # Local identities, conversations, participant media and server credentials
 /data/
 /models/
+/vendor/aladin/vit_networks.py
 /runtime/
 /tmp/
 /.env

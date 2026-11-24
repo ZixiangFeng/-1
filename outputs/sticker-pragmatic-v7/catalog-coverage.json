@@ -1,0 +1,17 @@
+{
+  "size": 1250,
+  "previous_assigned": 481,
+  "assigned": 622,
+  "previous_with_winner": 480,
+  "with_winner": 538,
+  "family_counts": {
+    "joy": 76,
+    "response": 13,
+    "question": 65,
+    "distress": 166,
+    "support": 87,
+    "objection": 152,
+    "social": 16,
+    "daily": 47
+  }
+}

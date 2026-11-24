@@ -1,0 +1,55 @@
+小屿中文表情包语义编码器 v1：自行实现与弱监督训练
+
+定位
+参考 GSE 的“图文对比训练 → 图片语义编码 → 相似度检索”思路，自行选择 Chinese-CLIP ViT-B/16 作为中文基础模型。
+这不是作者发布的 GSE 权重，不是严格复现，也不声称达到论文效果。
+GSE：https://arxiv.org/html/2511.04977v1
+Chinese-CLIP：https://github.com/OFA-Sys/Chinese-CLIP
+基础权重：https://huggingface.co/OFA-Sys/chinese-clip-vit-base-patch16
+固定版本：36e679e65c2a2fead755ae21162091293ad37834
+原始权重 SHA256：7b7b583c210c867410bc6bdb8a55fe14eec62999e0a9ea31ff222dc501f9cfbe
+
+数据
+使用 outputs/sticker-benchmark-500 的 500 张公开静态表情包和已有豆包视觉自动描述；不调用或读取被试数据库，不使用个人聊天训练。
+自动描述可能错，统一标为 human_reviewed=false；不会伪装成人工标注。
+按来源系列（pack）以及检测到的近重复关系取连通分组，再分为训练、验证、测试。
+本次固定种子 20261111：350 / 75 / 75 张，对应 67 / 17 / 18 个来源系列。
+不跨区使用同一来源系列或已检测近重复图。不同系列的同一角色仍可能存在，需要后续更严格人工检查。
+这些图片此前已在 BGE 基线中探索过，所以测试集只称本次训练的留出集，不称全新盲测外部集。
+
+训练
+文本塔冻结；微调视觉塔最后两层、post_layernorm、visual_projection。
+全部图片补白后缩放到 224×224，保留全画面；不水平翻转，不随机裁掉图片文字。
+使用对称图文对比损失；同文字描述作为多正例，BGE 含义余弦>0.80 的其他描述只屏蔽可能的假负例，不自动作为正例。
+训练时使用 BGE；训练完成后模型输入仅图片，无须豆包描述或 BGE。
+视觉层学习率 1e-5，投影层 1e-4；AdamW，weight_decay=0.01；梯度裁剪 1；5 轮。
+这些为自行实现选择，与 GSE 论文配置不同。实际参数、软件版本、模型文件哈希应以每次运行的 training-report.json 为准。
+依验证集的 image-to-caption MRR 选择轮次；选择完成后一次计算留出测试表现。
+
+评估
+保存训练前与训练后的配对描述检索 R@1、R@5、R@10、MRR、排名中位数及逐轮损失。
+指标回答“图片能否找回配对的机器描述”，不能解释为表情包同义判断准确率。
+尚无人工语义图片对金标准，不能据此宣称语义等价、个人用法正确、真实沟通趋异有效。
+预览页余弦门槛只是探索参数，不做人工校准阈值的宣称；空结果保持为空。
+ALADIN-ViT 风格距离仅在通过语义探索门槛的同一候选集合中排序。
+公共研究预览不自动替换正式聊天选图模型。
+
+可复现命令（在项目根目录运行）
+.venv-style/bin/python scripts/download_chinese_clip.py
+若本地 DNS 不稳定，可仅为该下载进程启用 DNS 缓存，HTTPS 验证保持开启：
+DOWNLOAD_DNS_RESOLVER=1.1.1.1 .venv-style/bin/python scripts/download_chinese_clip.py
+
+.venv-style/bin/python scripts/train_weak_sticker_encoder.py --output outputs/sticker-semantic-v1-20261111 --batch-size 32 --device mps
+.venv-style/bin/python scripts/preview_weak_sticker_encoder.py --run outputs/sticker-semantic-v1-20261111
+.venv-style/bin/python scripts/infer_weak_sticker_encoder.py --run outputs/sticker-semantic-v1-20261111 --image outputs/sticker-benchmark-500/images/B0027.png --device mps
+
+每次训练必须使用新输出目录，避免覆盖旧模型。正式研究验证时应另收集独立人工标注数据，避免反复按本次测试结果调参。
+checkpoint/ 为可独立加载的完整安全权重与处理器；visual-finetune.safetensors 为相对固定基础模型的训练后视觉参数。
+training-report.json、dataset.json、features.npz、stage1-visual-semantic.json、stage2-style-ranking.json、HTML 预览共同保留数据来源和结果。
+
+网页预览
+https://www.hustdesign.top/xiaoyu/research/semantic-trained
+入口位于研究控制台和风格实验室的“自训练语义模型”。
+deploy/publish_semantic_preview.py --run outputs/sticker-semantic-v1-20261111 只发布公共研究预览，不修改聊天后端、正式模型或数据库。
+在线页面按查询图读取静态分数与缩略图；本地 HTML 仍为可独立打开的完整离线文件。
+Nginx 使用独立 XIAOYU SEMANTIC PREVIEW 标记，更新前备份、配置校验、失败自动恢复。

@@ -1,0 +1,457 @@
+[
+  {
+    "blind_id": "K001",
+    "query": "Z001",
+    "candidate": "E0400"
+  },
+  {
+    "blind_id": "K002",
+    "query": "Z062",
+    "candidate": "E0741"
+  },
+  {
+    "blind_id": "K003",
+    "query": "Z060",
+    "candidate": "B0032"
+  },
+  {
+    "blind_id": "K004",
+    "query": "Z033",
+    "candidate": "E0544"
+  },
+  {
+    "blind_id": "K005",
+    "query": "Z034",
+    "candidate": "B0287"
+  },
+  {
+    "blind_id": "K006",
+    "query": "Z033",
+    "candidate": "E0018"
+  },
+  {
+    "blind_id": "K007",
+    "query": "Z063",
+    "candidate": "E0311"
+  },
+  {
+    "blind_id": "K008",
+    "query": "Z073",
+    "candidate": "E0284"
+  },
+  {
+    "blind_id": "K009",
+    "query": "Z008",
+    "candidate": "E0047"
+  },
+  {
+    "blind_id": "K010",
+    "query": "Z038",
+    "candidate": "E0109"
+  },
+  {
+    "blind_id": "K011",
+    "query": "Z084",
+    "candidate": "B0052"
+  },
+  {
+    "blind_id": "K012",
+    "query": "Z067",
+    "candidate": "E0238"
+  },
+  {
+    "blind_id": "K013",
+    "query": "Z012",
+    "candidate": "B0356"
+  },
+  {
+    "blind_id": "K014",
+    "query": "Z001",
+    "candidate": "B0142"
+  },
+  {
+    "blind_id": "K015",
+    "query": "Z073",
+    "candidate": "B0144"
+  },
+  {
+    "blind_id": "K016",
+    "query": "Z049",
+    "candidate": "E0346"
+  },
+  {
+    "blind_id": "K017",
+    "query": "Z014",
+    "candidate": "E0139"
+  },
+  {
+    "blind_id": "K018",
+    "query": "Z073",
+    "candidate": "B0356"
+  },
+  {
+    "blind_id": "K019",
+    "query": "Z049",
+    "candidate": "E0603"
+  },
+  {
+    "blind_id": "K020",
+    "query": "Z048",
+    "candidate": "E0460"
+  },
+  {
+    "blind_id": "K021",
+    "query": "Z062",
+    "candidate": "E0603"
+  },
+  {
+    "blind_id": "K022",
+    "query": "Z096",
+    "candidate": "E0339"
+  },
+  {
+    "blind_id": "K023",
+    "query": "Z063",
+    "candidate": "E0449"
+  },
+  {
+    "blind_id": "K024",
+    "query": "Z075",
+    "candidate": "E0282"
+  },
+  {
+    "blind_id": "K025",
+    "query": "Z012",
+    "candidate": "B0240"
+  },
+  {
+    "blind_id": "K026",
+    "query": "Z082",
+    "candidate": "E0486"
+  },
+  {
+    "blind_id": "K027",
+    "query": "Z076",
+    "candidate": "E0026"
+  },
+  {
+    "blind_id": "K028",
+    "query": "Z014",
+    "candidate": "B0306"
+  },
+  {
+    "blind_id": "K029",
+    "query": "Z024",
+    "candidate": "E0269"
+  },
+  {
+    "blind_id": "K030",
+    "query": "Z053",
+    "candidate": "E0720"
+  },
+  {
+    "blind_id": "K031",
+    "query": "Z002",
+    "candidate": "E0162"
+  },
+  {
+    "blind_id": "K032",
+    "query": "Z034",
+    "candidate": "B0142"
+  },
+  {
+    "blind_id": "K033",
+    "query": "Z030",
+    "candidate": "E0741"
+  },
+  {
+    "blind_id": "K034",
+    "query": "Z043",
+    "candidate": "E0243"
+  },
+  {
+    "blind_id": "K035",
+    "query": "Z096",
+    "candidate": "B0136"
+  },
+  {
+    "blind_id": "K036",
+    "query": "Z079",
+    "candidate": "E0143"
+  },
+  {
+    "blind_id": "K037",
+    "query": "Z051",
+    "candidate": "B0249"
+  },
+  {
+    "blind_id": "K038",
+    "query": "Z022",
+    "candidate": "B0014"
+  },
+  {
+    "blind_id": "K039",
+    "query": "Z060",
+    "candidate": "E0637"
+  },
+  {
+    "blind_id": "K040",
+    "query": "Z046",
+    "candidate": "E0579"
+  },
+  {
+    "blind_id": "K041",
+    "query": "Z084",
+    "candidate": "E0189"
+  },
+  {
+    "blind_id": "K042",
+    "query": "Z053",
+    "candidate": "B0046"
+  },
+  {
+    "blind_id": "K043",
+    "query": "Z067",
+    "candidate": "B0399"
+  },
+  {
+    "blind_id": "K044",
+    "query": "Z043",
+    "candidate": "E0204"
+  },
+  {
+    "blind_id": "K045",
+    "query": "Z060",
+    "candidate": "B0116"
+  },
+  {
+    "blind_id": "K046",
+    "query": "Z088",
+    "candidate": "B0033"
+  },
+  {
+    "blind_id": "K047",
+    "query": "Z054",
+    "candidate": "B0147"
+  },
+  {
+    "blind_id": "K048",
+    "query": "Z092",
+    "candidate": "E0238"
+  },
+  {
+    "blind_id": "K049",
+    "query": "Z056",
+    "candidate": "B0379"
+  },
+  {
+    "blind_id": "K050",
+    "query": "Z032",
+    "candidate": "B0115"
+  },
+  {
+    "blind_id": "K051",
+    "query": "Z016",
+    "candidate": "E0486"
+  },
+  {
+    "blind_id": "K052",
+    "query": "Z008",
+    "candidate": "B0136"
+  },
+  {
+    "blind_id": "K053",
+    "query": "Z100",
+    "candidate": "E0161"
+  },
+  {
+    "blind_id": "K054",
+    "query": "Z048",
+    "candidate": "E0408"
+  },
+  {
+    "blind_id": "K055",
+    "query": "Z041",
+    "candidate": "E0568"
+  },
+  {
+    "blind_id": "K056",
+    "query": "Z048",
+    "candidate": "E0215"
+  },
+  {
+    "blind_id": "K057",
+    "query": "Z032",
+    "candidate": "B0462"
+  },
+  {
+    "blind_id": "K058",
+    "query": "Z001",
+    "candidate": "E0280"
+  },
+  {
+    "blind_id": "K059",
+    "query": "Z022",
+    "candidate": "B0404"
+  },
+  {
+    "blind_id": "K060",
+    "query": "Z096",
+    "candidate": "E0047"
+  },
+  {
+    "blind_id": "K061",
+    "query": "Z036",
+    "candidate": "E0472"
+  },
+  {
+    "blind_id": "K062",
+    "query": "Z100",
+    "candidate": "B0017"
+  },
+  {
+    "blind_id": "K063",
+    "query": "Z002",
+    "candidate": "B0297"
+  },
+  {
+    "blind_id": "K064",
+    "query": "Z049",
+    "candidate": "E0486"
+  },
+  {
+    "blind_id": "K065",
+    "query": "Z030",
+    "candidate": "E0603"
+  },
+  {
+    "blind_id": "K066",
+    "query": "Z079",
+    "candidate": "E0749"
+  },
+  {
+    "blind_id": "K067",
+    "query": "Z003",
+    "candidate": "E0486"
+  },
+  {
+    "blind_id": "K068",
+    "query": "Z036",
+    "candidate": "B0047"
+  },
+  {
+    "blind_id": "K069",
+    "query": "Z046",
+    "candidate": "E0284"
+  },
+  {
+    "blind_id": "K070",
+    "query": "Z008",
+    "candidate": "B0122"
+  },
+  {
+    "blind_id": "K071",
+    "query": "Z041",
+    "candidate": "E0069"
+  },
+  {
+    "blind_id": "K072",
+    "query": "Z082",
+    "candidate": "B0142"
+  },
+  {
+    "blind_id": "K073",
+    "query": "Z038",
+    "candidate": "E0535"
+  },
+  {
+    "blind_id": "K074",
+    "query": "Z060",
+    "candidate": "B0404"
+  },
+  {
+    "blind_id": "K075",
+    "query": "Z043",
+    "candidate": "B0425"
+  },
+  {
+    "blind_id": "K076",
+    "query": "Z076",
+    "candidate": "E0583"
+  },
+  {
+    "blind_id": "K077",
+    "query": "Z058",
+    "candidate": "B0475"
+  },
+  {
+    "blind_id": "K078",
+    "query": "Z056",
+    "candidate": "B0251"
+  },
+  {
+    "blind_id": "K079",
+    "query": "Z024",
+    "candidate": "B0030"
+  },
+  {
+    "blind_id": "K080",
+    "query": "Z056",
+    "candidate": "B0030"
+  },
+  {
+    "blind_id": "K081",
+    "query": "Z075",
+    "candidate": "B0290"
+  },
+  {
+    "blind_id": "K082",
+    "query": "Z016",
+    "candidate": "E0603"
+  },
+  {
+    "blind_id": "K083",
+    "query": "Z003",
+    "candidate": "B0287"
+  },
+  {
+    "blind_id": "K084",
+    "query": "Z053",
+    "candidate": "E0468"
+  },
+  {
+    "blind_id": "K085",
+    "query": "Z078",
+    "candidate": "B0218"
+  },
+  {
+    "blind_id": "K086",
+    "query": "Z051",
+    "candidate": "E0018"
+  },
+  {
+    "blind_id": "K087",
+    "query": "Z078",
+    "candidate": "B0101"
+  },
+  {
+    "blind_id": "K088",
+    "query": "Z058",
+    "candidate": "E0749"
+  },
+  {
+    "blind_id": "K089",
+    "query": "Z089",
+    "candidate": "B0144"
+  },
+  {
+    "blind_id": "K090",
+    "query": "Z056",
+    "candidate": "B0092"
+  },
+  {
+    "blind_id": "K091",
+    "query": "Z089",
+    "candidate": "B0343"
+  }
+]

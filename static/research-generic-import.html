@@ -1,0 +1,100 @@
+<style>
+.generic-intake-box{border:1px solid #dce3d8;border-radius:16px;padding:18px;margin:18px 0;background:#fafbf8}
+.generic-intake-box h4{margin:0 0 8px;font-size:17px}.generic-intake-box p{margin:8px 0}
+#genericCropActions[hidden],#genericCropProgress[hidden]{display:none}
+#genericCropProgress{width:100%;height:10px;accent-color:#2c6255}
+.generic-tile-status{min-height:24px}.intake-tile[data-import-state=done]{border-color:#77a28b;background:#f0f7ed}
+.intake-tile[data-import-state=failed]{border-color:#b87055;background:#fff7ef}
+.generic-direct{margin:18px 0;border-top:1px solid #e2e6df;padding-top:14px}
+#genericCropStatus{white-space:pre-line;overflow-wrap:anywhere}
+</style>
+<div class="generic-intake-box">
+ <h4>截图批量裁切</h4>
+ <p class="muted">选择多张表情网格截图 → 检查裁切 → 一键上传并分析。每张图片分别提取通用语义和视觉风格。个人趋异候选在对应被试档案里随实际聊天形成。</p>
+ <div class="intake-controls"><input id="genericShotFiles" type="file" accept="image/png,image/jpeg,image/webp" multiple aria-label="研究者表情网格截图"><button id="genericCropPreview" type="button" onclick="previewGenericCrops()">自动裁切预览</button></div>
+ <details class="intake-grid-options"><summary>手动设置行列和截图区域</summary><p class="muted">自动识别不准时填写；区域按原图像素填写。多个尺寸不同的截图可分批处理。</p>
+ <p>列 <input id="genericCropCols" type="number" min="1" max="12" aria-label="素材网格列数"> 行 <input id="genericCropRows" type="number" min="1" max="30" aria-label="素材网格行数"></p>
+ <p>左 <input id="genericCropLeft" type="number" min="0" aria-label="素材区域左边界"> 上 <input id="genericCropTop" type="number" min="0" aria-label="素材区域上边界"> 右 <input id="genericCropRight" type="number" min="1" aria-label="素材区域右边界"> 下 <input id="genericCropBottom" type="number" min="1" aria-label="素材区域下边界"></p></details>
+ <p id="genericCropStatus" role="status" aria-live="polite"></p>
+ <progress id="genericCropProgress" value="0" max="1" aria-label="表情批量分析进度" hidden></progress>
+ <div id="genericCropPreviews"></div>
+ <div id="genericCropActions" class="intake-actions" hidden>
+  <span id="genericCropSelection"></span><button id="genericCropAll" class="light" type="button" onclick="selectGenericCrops(true)">全选</button><button id="genericCropNone" class="light" type="button" onclick="selectGenericCrops(false)">取消选择</button>
+  <button id="genericCropImport" type="button" onclick="importGenericCrops()">一键上传并分析</button><button id="genericCropPause" class="light" type="button" onclick="pauseGenericCrops()" disabled>暂停</button>
+ </div>
+ <p class="muted">疑似截断的图片默认不选。成功的图片会立即入库；暂停会等当前图片完成，失败项可重试。同库重复图片跳过已有分析。预览保留24小时，刷新后可重新选择原截图继续，已入库内容保留。</p>
+</div>
+<script>
+const genericCrops={pages:[],busy:false,stop:false};
+function genericNode(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n}
+function genericCropTasks(){return genericCrops.pages.flatMap(page=>page.tiles.filter(t=>t.selected&&t.status!=='done').map(tile=>({page,tile})))}
+function setGenericImportBusy(value){
+ genericCrops.busy=value;
+ for(const id of ['libraryStyle','genericFiles','importGeneric','genericShotFiles','genericCropPreview','genericCropAll','genericCropNone','genericCropImport'])document.getElementById(id).disabled=value;
+ document.querySelectorAll('#genericCropPreviews input,.generic-intake-box .intake-grid-options input').forEach(n=>n.disabled=value||n.dataset.completed==='true');
+ document.getElementById('genericCropPause').disabled=!value;
+}
+function clearGenericCrops(){if(genericCrops.busy)return;genericCrops.pages=[];document.getElementById('genericCropPreviews').replaceChildren();document.getElementById('genericCropActions').hidden=true;document.getElementById('genericCropProgress').hidden=true;document.getElementById('genericCropStatus').textContent='';document.getElementById('genericCropImport').textContent='一键上传并分析'}
+function genericCropOptions(){const ids=['Left','Top','Right','Bottom'],v=id=>document.getElementById('genericCrop'+id).value;const o={};if(v('Cols')||v('Rows')){o.columns=Number(v('Cols'));o.rows=Number(v('Rows'))}if(ids.some(id=>v(id)!=='')){if(!ids.every(id=>v(id)!==''))throw Error('请填写完整的截图区域边界');o.region=ids.map(id=>Number(v(id)))}return o}
+function updateGenericCropSelection(){
+ const tiles=genericCrops.pages.flatMap(p=>p.tiles),selected=tiles.filter(t=>t.selected),done=selected.filter(t=>t.status==='done');
+ document.getElementById('genericCropSelection').textContent=`已选 ${selected.length}/${tiles.length} 张 · 已完成 ${done.length} 张`;
+ document.getElementById('genericCropActions').hidden=!tiles.length;
+ document.getElementById('genericCropImport').disabled=genericCrops.busy||!genericCropTasks().length;
+}
+function selectGenericCrops(value){if(genericCrops.busy)return;for(const p of genericCrops.pages)for(const t of p.tiles)if(t.status!=='done'){t.selected=value;t.check.checked=value}updateGenericCropSelection()}
+function renderGenericCropPage(page){
+ const block=genericNode('div',undefined,'intake-page');block.append(genericNode('h4',page.name));
+ block.append(genericNode('p',`G 组公共表情库 · ${page.width} × ${page.height} · ${page.tiles.length} 个位置。橙框为疑似截断。`,'muted'));
+ const original=new Image(),overview=genericNode('details'),canvas=document.createElement('canvas');canvas.width=page.width;canvas.height=page.height;canvas.className='intake-overview';overview.append(genericNode('summary','查看原图与裁切位置'),canvas);block.append(overview);
+ original.onload=()=>{const x=canvas.getContext('2d');x.drawImage(original,0,0);x.lineWidth=Math.max(2,page.width/400);for(const t of page.tiles){x.strokeStyle=t.partial?'#dc9c44':'#28a27a';x.strokeRect(t.box[0],t.box[1],t.box[2]-t.box[0],t.box[3]-t.box[1])}};original.src=page.source;
+ const grid=genericNode('div',undefined,'intake-crops');
+ for(const tile of page.tiles){
+  tile.status='pending';const card=genericNode('div',undefined,'intake-tile'+(tile.partial?' partial':'')),image=genericNode('img');image.src='data:image/jpeg;base64,'+tile.image;image.alt=`素材裁切 ${tile.index+1}`;
+  const check=document.createElement('input');check.type='checkbox';check.checked=tile.selected;tile.check=check;
+  check.onchange=()=>{tile.selected=check.checked;updateGenericCropSelection()};const label=genericNode('label');label.append(check,document.createTextNode(`第${tile.row}排 · ${tile.column}`));
+  const status=genericNode('small',tile.partial?'疑似残缺，默认未选':'待上传分析','generic-tile-status');tile.statusNode=status;tile.card=card;card.append(image,label,status);
+  const edit=genericNode('details');edit.append(genericNode('summary','调整裁切'));tile.inputs=[check];
+  for(let j=0;j<4;j++){const input=document.createElement('input');input.type='number';input.min=0;input.max=j%2?page.height:page.width;input.value=tile.box[j];input.setAttribute('aria-label','素材'+['左','上','右','下'][j]+'边界');
+   input.onchange=()=>{tile.box[j]=Number(input.value);const [l,t,r,b]=tile.box;if(l>=0&&t>=0&&r<=page.width&&b<=page.height&&r-l>=16&&b-t>=16&&original.complete){const cv=document.createElement('canvas');cv.width=r-l;cv.height=b-t;cv.getContext('2d').drawImage(original,l,t,r-l,b-t,0,0,r-l,b-t);image.src=cv.toDataURL('image/jpeg',.85);tile.status='pending';status.textContent='已调整，待上传分析';card.dataset.importState='pending'}else status.textContent='裁切范围无效，请调整坐标'};
+   tile.inputs.push(input);edit.append(input)
+  }card.append(edit);grid.append(card)
+ }block.append(grid);document.getElementById('genericCropPreviews').append(block);
+}
+async function previewGenericCrops(){
+ if(genericCrops.busy)return;const status=document.getElementById('genericCropStatus');
+ try{
+  const files=[...document.getElementById('genericShotFiles').files];if(!files.length)throw Error('请先选择表情网格截图');
+  const options=genericCropOptions(),pool='generic',style=document.getElementById('libraryStyle').value;
+  clearGenericCrops();setGenericImportBusy(true);document.getElementById('genericCropPause').disabled=true;const failed=[];
+  for(let i=0;i<files.length;i++){
+   const file=files[i];status.textContent=`裁切预览 ${i+1}/${files.length}：${file.name}`;
+   try{if(file.size>6000000)throw Error('截图请小于6MB');const source=await intakeFileData(file);const p=await api('/api/admin/generic-library/preview',{image:source,pool,style,name:file.name,options});p.source=source;genericCrops.pages.push(p);renderGenericCropPage(p)}catch(e){failed.push(file.name+'：'+e.message)}
+  }
+  status.textContent=`已生成 ${genericCrops.pages.length}/${files.length} 张截图预览，请检查后再上传。`+(failed.length?'\n未完成：'+failed.join('；'):'');
+ }catch(e){status.textContent=e.message}finally{setGenericImportBusy(false);updateGenericCropSelection()}
+}
+function pauseGenericCrops(){genericCrops.stop=true;document.getElementById('genericCropPause').disabled=true;document.getElementById('genericCropStatus').textContent='当前图片完成后暂停；已入库内容会保留。'}
+async function importGenericCrops(){
+ if(genericCrops.busy)return;const tasks=genericCropTasks();if(!tasks.length)return;
+ genericCrops.stop=false;setGenericImportBusy(true);const progress=document.getElementById('genericCropProgress'),status=document.getElementById('genericCropStatus');progress.max=tasks.length;progress.value=0;progress.hidden=false;let added=0,existing=0,failed=0,finished=0;
+ try{
+  for(const {page,tile} of tasks){
+   if(genericCrops.stop)break;
+   tile.status='working';tile.card.dataset.importState='working';tile.statusNode.textContent='上传并分析中…';status.textContent=`上传并分析 ${finished+1}/${tasks.length}：${page.name} · 第${tile.row}排第${tile.column}张`;
+   try{
+    const r=await api('/api/admin/generic-library/crop-import',{draft:page.draft,index:tile.index,box:tile.box});
+    tile.status='done';tile.asset=r.id;tile.card.dataset.importState='done';tile.statusNode.textContent=r.duplicate?'已存在，跳过重复分析':'已入库 · 分析完成';if(r.duplicate)existing++;else added++;
+    for(const input of tile.inputs){input.dataset.completed='true';input.disabled=true}
+   }catch(e){tile.status='failed';tile.card.dataset.importState='failed';tile.statusNode.textContent='失败：'+e.message;failed++}
+   progress.value=++finished;updateGenericCropSelection();
+  }
+  status.textContent=`${genericCrops.stop?'已暂停':'本批处理完成'}：新增 ${added} 张，已有 ${existing} 张，失败 ${failed} 张，未处理 ${tasks.length-finished} 张。`+(failed||finished<tasks.length?' 点击“继续 / 重试失败”接着处理。':'');
+  try{await genericRefresh()}catch(e){status.textContent+=' 入库结果已保存，图库列表暂未刷新。'}
+ }finally{
+  setGenericImportBusy(false);updateGenericCropSelection();document.getElementById('genericCropImport').textContent=genericCropTasks().length?'继续 / 重试失败':'全部处理完成';
+ }
+}
+document.getElementById('genericShotFiles').onchange=clearGenericCrops;
+document.getElementById('libraryStyle').addEventListener('input',clearGenericCrops);
+</script>

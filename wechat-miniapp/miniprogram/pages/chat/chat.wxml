@@ -1,0 +1,90 @@
+<view wx:if="{{!authenticated}}" class="login-page">
+  <view class="brand-orb">◡</view>
+  <view class="login-title">回到小屿</view>
+  <view class="muted">扫码个人研究链接，聊天记录会跟随同一身份恢复。</view>
+  <button class="primary wide" bindtap="scanParticipantLink">扫码进入</button>
+  <view class="divider">或粘贴个人链接 / 凭证</view>
+  <input class="token-input" value="{{tokenInput}}" bindinput="onTokenInput" password="{{true}}" placeholder="个人链接或凭证" />
+  <button class="secondary wide" bindtap="loginWithToken">恢复聊天</button>
+  <view class="error">{{error}}</view>
+</view>
+
+<view wx:else class="page">
+  <view class="header safe-top">
+    <view class="identity"><view class="orb">◡</view><view><view class="name">小屿</view><view class="presence">一直在这里 · AI 聊天伙伴</view></view></view>
+    <button class="plain" bindtap="openSurvey">阶段反馈</button>
+  </view>
+
+  <scroll-view class="messages" scroll-y scroll-into-view="{{scrollInto}}" enhanced show-scrollbar="false">
+    <view wx:if="{{!messages.length}}" class="empty"><view class="empty-title">今天，想从哪里聊起？</view><view class="muted">开心的事、没说出口的话，或是一张表情包。</view></view>
+    <block wx:for="{{messages}}" wx:key="key">
+      <view wx:if="{{item.showTime}}" class="time">{{item.time}}</view>
+      <view id="msg-{{index}}" class="row {{item.role}}">
+        <view wx:if="{{item.role === 'assistant'}}" class="avatar bot">屿</view>
+        <view class="bubble-wrap">
+          <view wx:if="{{item.text}}" class="bubble {{item.role}}">{{item.text}}</view>
+          <image wx:if="{{item.assetPath}}" class="message-image" src="{{item.assetPath}}" mode="aspectFill" bindtap="previewMessageImage" data-src="{{item.assetPath}}" />
+          <view wx:if="{{item.typing}}" class="bubble typing"><view class="dot"></view><view class="dot d2"></view><view class="dot d3"></view><text>{{waitingForUser ? ' ' : ' '}}</text></view>
+        </view>
+        <view wx:if="{{item.role === 'user'}}" class="avatar me">我</view>
+      </view>
+    </block>
+    <view id="bottom" class="bottom-anchor"></view>
+  </scroll-view>
+
+  <view class="error inline-error">{{error}}</view>
+  <view class="composer safe-bottom">
+    <view wx:if="{{selectedAssetPath}}" class="selected-preview">
+      <image src="{{selectedAssetPath}}" mode="aspectFill" />
+      <view wx:if="{{uploading}}" class="upload-cover"><view class="spinner"></view></view>
+      <button class="remove" bindtap="removeSelectedAsset">×</button>
+    </view>
+    <textarea class="composer-input" value="{{draft}}" bindinput="onDraftInput" maxlength="2000" auto-height placeholder="和小屿说说今天…" cursor-spacing="18" />
+    <view class="toolbar">
+      <view class="tool-left">
+        <button class="tool" bindtap="chooseOneImage" disabled="{{busy || uploading}}">＋ 图片</button>
+        <button class="tool" bindtap="openLibrary" disabled="{{busy}}">表情库</button>
+        <button class="tool emoji" bindtap="toggleEmoji">😊</button>
+      </view>
+      <button class="send" bindtap="sendMessage" disabled="{{uploading || !ready}}">发送 ↗</button>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{showConsent}}" class="modal-mask">
+  <view class="modal-card">
+    <view class="modal-title">开始之前</view>
+    <view class="modal-copy">这是一个为期 14 天的 AI 聊天研究原型。文字、图片及相关记忆会发送到研究服务端和火山方舟，用于生成回复及研究分析。它不是专业心理诊疗服务。</view>
+    <button class="primary wide" bindtap="agreeConsent">我已了解，开始试用</button>
+  </view>
+</view>
+
+<view wx:if="{{showEmoji}}" class="sheet-mask" bindtap="closeSheets">
+  <view class="sheet" catchtap="stopTap">
+    <view class="sheet-head"><text>常用 Emoji</text><button class="plain" bindtap="toggleEmoji">关闭</button></view>
+    <view class="emoji-grid"><button wx:for="{{emojis}}" wx:key="*this" class="emoji-choice" bindtap="pickEmoji" data-emoji="{{item}}">{{item}}</button></view>
+  </view>
+</view>
+
+<view wx:if="{{showLibrary}}" class="sheet-mask" bindtap="closeSheets">
+  <view class="sheet library-sheet" catchtap="stopTap">
+    <view class="sheet-head"><view><view>我的表情</view><view class="muted small">导入只保存，发进聊天后才开始学习</view></view><button class="plain" bindtap="closeSheets">关闭</button></view>
+    <view class="import-actions"><button class="secondary" bindtap="importFromAlbum" disabled="{{libraryImporting}}">从相册导入</button><button class="secondary" bindtap="importFromWechat" disabled="{{libraryImporting}}">从微信文件导入</button></view>
+    <view class="library-progress">{{libraryProgress}}</view>
+    <scroll-view scroll-y class="library-scroll">
+      <view wx:if="{{!library.length}}" class="library-empty">还没有表情，先导入一些吧</view>
+      <view class="library-grid"><button wx:for="{{library}}" wx:key="id" class="library-item" bindtap="selectLibraryAsset" data-id="{{item.id}}" data-path="{{item.path}}"><image src="{{item.path}}" mode="aspectFill" /></button></view>
+    </scroll-view>
+  </view>
+</view>
+
+<view wx:if="{{showSurvey}}" class="modal-mask">
+  <view class="modal-card">
+    <view class="sheet-head"><view class="modal-title">阶段反馈</view><button class="plain" bindtap="closeSurvey">关闭</button></view>
+    <picker mode="selector" range="{{surveyWaves}}" range-key="label" value="{{surveyWaveIndex}}" bindchange="changeSurveyWave"><view class="picker">{{surveyWaves[surveyWaveIndex].label}}⌄</view></picker>
+    <view class="survey-item">我觉得这个聊天伙伴是可信赖的。<slider min="1" max="7" step="1" show-value value="{{surveyAnswers[0]}}" bindchange="surveyOne" /></view>
+    <view class="survey-item">我觉得它理解我想表达的意思。<slider min="1" max="7" step="1" show-value value="{{surveyAnswers[1]}}" bindchange="surveyTwo" /></view>
+    <view class="survey-item">我愿意继续与它交流。<slider min="1" max="7" step="1" show-value value="{{surveyAnswers[2]}}" bindchange="surveyThree" /></view>
+    <button class="primary wide" bindtap="submitSurvey">提交</button>
+  </view>
+</view>

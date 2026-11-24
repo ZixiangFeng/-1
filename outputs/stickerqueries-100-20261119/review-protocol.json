@@ -1,0 +1,14 @@
+{
+  "taxonomy": {
+    "joy": "开心与玩笑",
+    "response": "回应与认同",
+    "question": "疑问与惊讶",
+    "distress": "低落与感叹",
+    "support": "亲近与支持",
+    "objection": "不满与拒绝",
+    "social": "问候与礼貌",
+    "daily": "日常需求与邀请"
+  },
+  "broad": "Code acceptable broad family from the human Chinese query and source image before predictions. Outside means a recognizable purpose outside the eight or a purely visual/object tag. Uncertain means insufficient evidence. Neither is used as a positive class. A query may allow two plausible families.",
+  "pair": "Paired images and original query only, shuffled and stripped of source, method, rank, scores and model captions. Primary win requires intent=yes, style=yes, repeated recognizable template=no. No credit for uncertainty. Coding by Codex, not by the source annotators."
+}

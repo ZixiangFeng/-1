@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "api_type": "responses",
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "api_key": "",
+  "model": "",
+  "vision_model": "",
+  "disable_thinking": true
+}

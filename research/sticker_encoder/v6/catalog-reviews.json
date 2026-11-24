@@ -1,0 +1,11 @@
+{
+  "E0264": {
+    "image_sha256": "64474933fb8ae545383bf1f113ca978de341e4ac42a30c1eb670bfc5d2b64eb2",
+    "previous_meaning": "友好地笑或开心回应。",
+    "meaning": "无语、无奈地干笑，一时不知道该说什么。",
+    "intent": "speechless",
+    "source": "研究者看图纠正",
+    "scope": "公开图库的默认释义",
+    "date": "2026-11-19"
+  }
+}

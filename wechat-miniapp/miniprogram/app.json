@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/chat/chat"],
+  "window": {
+    "navigationBarTitleText": "小屿",
+    "navigationBarBackgroundColor": "#f5f3ee",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f3ee"
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

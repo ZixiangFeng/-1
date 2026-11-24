@@ -1,0 +1,30 @@
+{
+  "source": "metchee/sticker-queries",
+  "revision": "c28a358226990ef183703bb3797c2b4c5b59e73c",
+  "seed": "xiaoyu-externally-annotated-100-post-eight-family-20261119-round3",
+  "requested": 100,
+  "chinese_records": 615,
+  "png_records": 255,
+  "csv_sha256": "645aac8fe3723f976919a164a8bb78dc96679895a1fe805af57ed6da903abce4",
+  "model": "2e58befc027197e822e9c778a5a7c85f952e9e05f5ab8d7337a21edaf41fabc9",
+  "base": "a9076a1d854163c019472a5b67f3608bf526129cd242059a691e0613a457f454",
+  "pair_floor": 0.6,
+  "style_floor": 0.65,
+  "deployed_release": "20261119T050345Z",
+  "frozen": {
+    "research/sticker_encoder/v6/semantic-ranker-v6.npz": "a9076a1d854163c019472a5b67f3608bf526129cd242059a691e0613a457f454",
+    "research/sticker_encoder/v7/language-intent.npz": "2e58befc027197e822e9c778a5a7c85f952e9e05f5ab8d7337a21edaf41fabc9",
+    "sticker_intent.py": "988f49bdc1653d47911603555a59c11de1fcc5071ead34e7b650105b1ed11a2a",
+    "sticker_pragmatics.py": "6cec76d311ef4c24b1174cd5e5c3a6040d43e377a7c3500e9b57aefd7c3a2e30",
+    "outputs/sticker-broad-v5-20261119/display-dataset.json": "db72638011f83697d168a7d5efc6353e7a809b514e1f0ff5c45a9ae488d8a172",
+    "research/sticker_encoder/v6/catalog-reviews.json": "56b9655a883c624ba4c8228cdb696acc076d295db9e2f57a89128b7ceecfe11f",
+    "research/sticker_encoder/v6/intent-phrases.npz": "321845574be8257b60dfc180642adff888aa76e7aa3d66acf027eb6ef5672cf7",
+    "outputs/sticker-divergence-v4-20261119/all-caption-features.npz": "0be7e2743909bdb419371209d4ad87c046e183ba928983647935aa20d50bd0c1",
+    "outputs/sticker-semantic-v3-local-20261118/all-style-features.npz": "4c09cd4137d5893e3aa85f0370d4ffc43205fea7d14461e893d6d6b870624302"
+  },
+  "selection": "Seeded hash order of original filenames. One static, unique image and one distinct unmodified Chinese human query per case, first listed eligible query. Skip literal overlaps with known project labels/training/development texts.",
+  "deduplication": "Raw/pixel SHA and minimum Hamming distance >7 across normal, mirror, and border-trimmed 64-bit perceptual hashes against gallery, historical 75, previous X/Y, and already accepted Z. No search based on model output.",
+  "annotation": "Method-blind and rank-blind; original Chinese use with reference image and one candidate image. Meaning yes if it can express the same speech act, speaker role, target and stance; no for a contradiction or a different identifiable act; otherwise uncertain. An object-only query without an identifiable act is uncertain. Style yes for a clear change in rendering/medium/layout, not simply a different character. Mark an obvious reused template separately.",
+  "primary": "Queries with a visually verified same-use and clearly different-style, non-template top divergent candidate divided by all 100. Also report among returned, coverage, clear mismatches, unclear intent and stage 1.",
+  "holdout_use": "Test only. No training, threshold selection, or gallery edits with this sample."
+}

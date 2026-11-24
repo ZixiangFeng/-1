@@ -1,0 +1,46 @@
+{
+  "queries": 48,
+  "gallery": 1250,
+  "method": "Frozen paired holdout; same public images and ALADIN features. Independent files from the same two public source repositories. One Codex visual judgment, blind to method, rank and scores, with no participant context.",
+  "model": "2e58befc027197e822e9c778a5a7c85f952e9e05f5ab8d7337a21edaf41fabc9",
+  "sample": "a9235487eab700e72021de85dac2bd641ea847c65d695480c030f5ae8d995e0a",
+  "key_sha256": "120e8f21f3770ee27857cbec160d0025d8e8c1fd952ea00d0d4dd3105c2b7d8e",
+  "judgments_sha256": "80abb1a88919bc40d69a8bf95f7b26f2e34016b8b5251770dbc2df248e5a97fb",
+  "full_maximum_verified_on_all": 48,
+  "results": {
+    "27": {
+      "assigned": 21,
+      "semantic": {
+        "returned": 21,
+        "same_meaning": 9,
+        "different_meaning": 1,
+        "unclear_meaning": 11,
+        "both": 7
+      },
+      "divergent": {
+        "returned": 21,
+        "same_meaning": 5,
+        "different_meaning": 10,
+        "unclear_meaning": 6,
+        "both": 5
+      }
+    },
+    "8": {
+      "assigned": 29,
+      "semantic": {
+        "returned": 23,
+        "same_meaning": 11,
+        "different_meaning": 6,
+        "unclear_meaning": 6,
+        "both": 9
+      },
+      "divergent": {
+        "returned": 22,
+        "same_meaning": 5,
+        "different_meaning": 5,
+        "unclear_meaning": 12,
+        "both": 5
+      }
+    }
+  }
+}

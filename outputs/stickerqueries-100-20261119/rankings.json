@@ -1,0 +1,2380 @@
+{
+  "Z001": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 11,
+      "semantic": {
+        "id": "E0400",
+        "meaning_score": 0.6901746988296509,
+        "style_distance": 0.6815648375280929,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0280",
+        "meaning_score": 0.5922999382019043,
+        "style_distance": 1.1630420860185007,
+        "meaning_rank": 6
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 6,
+      "style_eligible": 6,
+      "semantic": {
+        "id": "E0400",
+        "meaning_score": 0.6901746988296509,
+        "style_distance": 0.6815648375280929,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0142",
+        "meaning_score": 0.604619026184082,
+        "style_distance": 1.1297417933201446,
+        "meaning_rank": 5
+      }
+    }
+  },
+  "Z002": {
+    "27": {
+      "group": "praise",
+      "family_candidates": 8,
+      "interchangeable": 8,
+      "style_eligible": 8,
+      "semantic": {
+        "id": "E0162",
+        "meaning_score": 0.5659937858581543,
+        "style_distance": 1.0097378556998566,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0297",
+        "meaning_score": 0.40810859203338623,
+        "style_distance": 1.0413093844512173,
+        "meaning_rank": 8
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z003": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 10,
+      "semantic": {
+        "id": "E0486",
+        "meaning_score": 0.6733899712562561,
+        "style_distance": 1.0621410442081998,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0287",
+        "meaning_score": 0.5186835527420044,
+        "style_distance": 1.1391174941441717,
+        "meaning_rank": 8
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 5,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "E0486",
+        "meaning_score": 0.6733899712562561,
+        "style_distance": 1.0621410442081998,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0486",
+        "meaning_score": 0.6733899712562561,
+        "style_distance": 1.0621410442081998,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z004": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z005": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z006": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z007": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z008": {
+    "27": {
+      "group": "confused",
+      "family_candidates": 8,
+      "interchangeable": 8,
+      "style_eligible": 7,
+      "semantic": {
+        "id": "B0122",
+        "meaning_score": 0.6587930917739868,
+        "style_distance": 0.9094929261108882,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0047",
+        "meaning_score": 0.5287075042724609,
+        "style_distance": 1.005130971110296,
+        "meaning_rank": 7
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 3,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "B0122",
+        "meaning_score": 0.6587930917739868,
+        "style_distance": 0.9094929261108882,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0136",
+        "meaning_score": 0.6261557340621948,
+        "style_distance": 0.9625612888489815,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z009": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z010": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z011": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z012": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 12,
+      "semantic": {
+        "id": "B0240",
+        "meaning_score": 0.6478590369224548,
+        "style_distance": 0.9219078912770803,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0356",
+        "meaning_score": 0.5318684577941895,
+        "style_distance": 1.036078806772352,
+        "meaning_rank": 4
+      }
+    },
+    "8": {
+      "group": "daily",
+      "family_candidates": 47,
+      "interchangeable": 1,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "B0240",
+        "meaning_score": 0.6478590369224548,
+        "style_distance": 0.9219078912770803,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0240",
+        "meaning_score": 0.6478590369224548,
+        "style_distance": 0.9219078912770803,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z013": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z014": {
+    "27": {
+      "group": "sleep",
+      "family_candidates": 10,
+      "interchangeable": 10,
+      "style_eligible": 10,
+      "semantic": {
+        "id": "E0139",
+        "meaning_score": 0.6018234491348267,
+        "style_distance": 0.8197352003907556,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0306",
+        "meaning_score": 0.3759121596813202,
+        "style_distance": 1.0019600896294052,
+        "meaning_rank": 9
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z015": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z016": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 14,
+      "semantic": {
+        "id": "E0486",
+        "meaning_score": 0.6155487895011902,
+        "style_distance": 0.8877224178370461,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0603",
+        "meaning_score": 0.6013756990432739,
+        "style_distance": 1.0738566187253307,
+        "meaning_rank": 2
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 2,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "E0486",
+        "meaning_score": 0.6155487895011902,
+        "style_distance": 0.8877224178370461,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0603",
+        "meaning_score": 0.6013756990432739,
+        "style_distance": 1.0738566187253307,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z017": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z018": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z019": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z020": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z021": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z022": {
+    "27": {
+      "group": "laugh",
+      "family_candidates": 54,
+      "interchangeable": 54,
+      "style_eligible": 47,
+      "semantic": {
+        "id": "B0014",
+        "meaning_score": 0.6230669617652893,
+        "style_distance": 1.0175337455899345,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0404",
+        "meaning_score": 0.29234302043914795,
+        "style_distance": 1.16123665172958,
+        "meaning_rank": 28
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z023": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z024": {
+    "27": {
+      "group": "doubt",
+      "family_candidates": 16,
+      "interchangeable": 16,
+      "style_eligible": 11,
+      "semantic": {
+        "id": "E0269",
+        "meaning_score": 0.5535720586776733,
+        "style_distance": 0.440486695102452
+      },
+      "divergent": {
+        "id": "B0030",
+        "meaning_score": 0.43570446968078613,
+        "style_distance": 1.134702215468051,
+        "meaning_rank": 9
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z025": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z026": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z027": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z028": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z029": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z030": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 14,
+      "semantic": {
+        "id": "E0603",
+        "meaning_score": 0.5516769886016846,
+        "style_distance": 0.6405124312680845
+      },
+      "divergent": {
+        "id": "E0741",
+        "meaning_score": 0.4406193196773529,
+        "style_distance": 1.0186883450460782,
+        "meaning_rank": 9
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z031": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z032": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 3,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "B0115",
+        "meaning_score": 0.6345734596252441,
+        "style_distance": 0.7346567101780097,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0462",
+        "meaning_score": 0.6288575530052185,
+        "style_distance": 0.7645565331470425,
+        "meaning_rank": 3
+      }
+    }
+  },
+  "Z033": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 14,
+      "semantic": {
+        "id": "E0544",
+        "meaning_score": 0.5479972958564758,
+        "style_distance": 0.8361695121913545,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0018",
+        "meaning_score": 0.5075840950012207,
+        "style_distance": 0.9580659689977732,
+        "meaning_rank": 4
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z034": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 14,
+      "semantic": {
+        "id": "B0287",
+        "meaning_score": 0.5092383623123169,
+        "style_distance": 0.9284358073044635,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0142",
+        "meaning_score": 0.25627273321151733,
+        "style_distance": 1.0674035976653855,
+        "meaning_rank": 18
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z035": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z036": {
+    "27": {
+      "group": "ack",
+      "family_candidates": 6,
+      "interchangeable": 6,
+      "style_eligible": 5,
+      "semantic": {
+        "id": "E0472",
+        "meaning_score": 0.548782229423523,
+        "style_distance": 0.6048025550958194
+      },
+      "divergent": {
+        "id": "B0047",
+        "meaning_score": 0.4134625196456909,
+        "style_distance": 1.0599638973957364,
+        "meaning_rank": 3
+      }
+    },
+    "8": {
+      "group": "response",
+      "family_candidates": 13,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z037": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z038": {
+    "27": {
+      "group": "laugh",
+      "family_candidates": 54,
+      "interchangeable": 54,
+      "style_eligible": 34,
+      "semantic": {
+        "id": "E0535",
+        "meaning_score": 0.464826375246048,
+        "style_distance": 0.8509228687400112,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0109",
+        "meaning_score": 0.3348965644836426,
+        "style_distance": 1.0073978985123713,
+        "meaning_rank": 34
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z039": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z040": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z041": {
+    "27": {
+      "group": "surprise",
+      "family_candidates": 23,
+      "interchangeable": 23,
+      "style_eligible": 18,
+      "semantic": {
+        "id": "E0568",
+        "meaning_score": 0.7693206667900085,
+        "style_distance": 0.5774578831896999
+      },
+      "divergent": {
+        "id": "E0069",
+        "meaning_score": 0.6830048561096191,
+        "style_distance": 1.1239629664480217,
+        "meaning_rank": 8
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 17,
+      "style_eligible": 14,
+      "semantic": {
+        "id": "E0568",
+        "meaning_score": 0.7693206667900085,
+        "style_distance": 0.5774578831896999
+      },
+      "divergent": {
+        "id": "E0069",
+        "meaning_score": 0.6830048561096191,
+        "style_distance": 1.1239629664480217,
+        "meaning_rank": 9
+      }
+    }
+  },
+  "Z042": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z043": {
+    "27": {
+      "group": "attack",
+      "family_candidates": 54,
+      "interchangeable": 54,
+      "style_eligible": 48,
+      "semantic": {
+        "id": "E0243",
+        "meaning_score": 0.7021126747131348,
+        "style_distance": 0.878576826705222,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0425",
+        "meaning_score": 0.48096299171447754,
+        "style_distance": 1.0460475428988207,
+        "meaning_rank": 28
+      }
+    },
+    "8": {
+      "group": "objection",
+      "family_candidates": 152,
+      "interchangeable": 12,
+      "style_eligible": 12,
+      "semantic": {
+        "id": "E0243",
+        "meaning_score": 0.7021126747131348,
+        "style_distance": 0.878576826705222,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0204",
+        "meaning_score": 0.630066990852356,
+        "style_distance": 1.0456768360602446,
+        "meaning_rank": 10
+      }
+    }
+  },
+  "Z044": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z045": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z046": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 11,
+      "semantic": {
+        "id": "E0579",
+        "meaning_score": 0.5958184599876404,
+        "style_distance": 0.794197043015753,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0284",
+        "meaning_score": 0.5683520436286926,
+        "style_distance": 1.017609580448253,
+        "meaning_rank": 5
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z047": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z048": {
+    "27": {
+      "group": "sleep",
+      "family_candidates": 10,
+      "interchangeable": 10,
+      "style_eligible": 9,
+      "semantic": {
+        "id": "E0408",
+        "meaning_score": 0.7156720161437988,
+        "style_distance": 0.7172869295545393,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0215",
+        "meaning_score": 0.4970110058784485,
+        "style_distance": 1.1635475782284115,
+        "meaning_rank": 7
+      }
+    },
+    "8": {
+      "group": "social",
+      "family_candidates": 16,
+      "interchangeable": 3,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "E0408",
+        "meaning_score": 0.7156720161437988,
+        "style_distance": 0.7172869295545393,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0460",
+        "meaning_score": 0.6770643591880798,
+        "style_distance": 1.0170939513291712,
+        "meaning_rank": 3
+      }
+    }
+  },
+  "Z049": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 13,
+      "semantic": {
+        "id": "E0346",
+        "meaning_score": 0.677787184715271,
+        "style_distance": 0.37725560273762515
+      },
+      "divergent": {
+        "id": "E0603",
+        "meaning_score": 0.42190176248550415,
+        "style_distance": 1.0838041202189455,
+        "meaning_rank": 15
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 2,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "E0346",
+        "meaning_score": 0.677787184715271,
+        "style_distance": 0.37725560273762515
+      },
+      "divergent": {
+        "id": "E0486",
+        "meaning_score": 0.601800262928009,
+        "style_distance": 0.9736713480764206,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z050": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z051": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "E0018",
+        "meaning_score": 0.6633937358856201,
+        "style_distance": 0.819128226535401,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0018",
+        "meaning_score": 0.6633937358856201,
+        "style_distance": 0.819128226535401,
+        "meaning_rank": 1
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 7,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "B0249",
+        "meaning_score": 0.7297475337982178,
+        "style_distance": 0.7425383752951571,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0249",
+        "meaning_score": 0.7297475337982178,
+        "style_distance": 0.7425383752951571,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z052": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z053": {
+    "27": {
+      "group": "love",
+      "family_candidates": 33,
+      "interchangeable": 33,
+      "style_eligible": 28,
+      "semantic": {
+        "id": "B0046",
+        "meaning_score": 0.6277445554733276,
+        "style_distance": 0.6938949290395617,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0720",
+        "meaning_score": 0.5555816888809204,
+        "style_distance": 1.1042007798724978,
+        "meaning_rank": 8
+      }
+    },
+    "8": {
+      "group": "support",
+      "family_candidates": 87,
+      "interchangeable": 3,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "B0046",
+        "meaning_score": 0.6277445554733276,
+        "style_distance": 0.6938949290395617,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0468",
+        "meaning_score": 0.6149797439575195,
+        "style_distance": 1.0534784399316266,
+        "meaning_rank": 3
+      }
+    }
+  },
+  "Z054": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "joy",
+      "family_candidates": 76,
+      "interchangeable": 1,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "B0147",
+        "meaning_score": 0.6465655565261841,
+        "style_distance": 0.9337384939933688,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0147",
+        "meaning_score": 0.6465655565261841,
+        "style_distance": 0.9337384939933688,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z055": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z056": {
+    "27": {
+      "group": "doubt",
+      "family_candidates": 16,
+      "interchangeable": 16,
+      "style_eligible": 16,
+      "semantic": {
+        "id": "B0251",
+        "meaning_score": 0.6587361693382263,
+        "style_distance": 1.129795084230615,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0030",
+        "meaning_score": 0.5695827007293701,
+        "style_distance": 1.1890509747928055,
+        "meaning_rank": 3
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 3,
+      "style_eligible": 3,
+      "semantic": {
+        "id": "B0379",
+        "meaning_score": 0.6651818156242371,
+        "style_distance": 0.8268814528185677,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0092",
+        "meaning_score": 0.6425652503967285,
+        "style_distance": 1.1103476931586047,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z057": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z058": {
+    "27": {
+      "group": "tired",
+      "family_candidates": 9,
+      "interchangeable": 9,
+      "style_eligible": 8,
+      "semantic": {
+        "id": "B0475",
+        "meaning_score": 0.656052827835083,
+        "style_distance": 1.0036800140573163,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0749",
+        "meaning_score": 0.3847420811653137,
+        "style_distance": 1.1008756560074044,
+        "meaning_rank": 6
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 1,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "B0475",
+        "meaning_score": 0.656052827835083,
+        "style_distance": 1.0036800140573163,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0475",
+        "meaning_score": 0.656052827835083,
+        "style_distance": 1.0036800140573163,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z059": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z060": {
+    "27": {
+      "group": "laugh",
+      "family_candidates": 54,
+      "interchangeable": 54,
+      "style_eligible": 50,
+      "semantic": {
+        "id": "B0032",
+        "meaning_score": 0.6580297946929932,
+        "style_distance": 1.1681845180699297,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0404",
+        "meaning_score": 0.5463017225265503,
+        "style_distance": 1.2382890487020297,
+        "meaning_rank": 23
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 2,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "B0116",
+        "meaning_score": 0.6427575945854187,
+        "style_distance": 0.9259720452600255,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0637",
+        "meaning_score": 0.6011415719985962,
+        "style_distance": 1.1070295947685134,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z061": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z062": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 13,
+      "semantic": {
+        "id": "E0741",
+        "meaning_score": 0.6335370540618896,
+        "style_distance": 0.9120763381349447,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0603",
+        "meaning_score": 0.3385191559791565,
+        "style_distance": 1.0455529843840499,
+        "meaning_rank": 17
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 1,
+      "style_eligible": 1,
+      "semantic": {
+        "id": "E0741",
+        "meaning_score": 0.6335370540618896,
+        "style_distance": 0.9120763381349447,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0741",
+        "meaning_score": 0.6335370540618896,
+        "style_distance": 0.9120763381349447,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z063": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "support",
+      "family_candidates": 87,
+      "interchangeable": 2,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "E0449",
+        "meaning_score": 0.6962525844573975,
+        "style_distance": 1.0908640406460544,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0311",
+        "meaning_score": 0.6040198802947998,
+        "style_distance": 1.1604918332080767,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z064": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z065": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z066": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z067": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 12,
+      "semantic": {
+        "id": "E0238",
+        "meaning_score": 0.5463919639587402,
+        "style_distance": 0.9633686805706297,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0399",
+        "meaning_score": 0.5307688117027283,
+        "style_distance": 1.031097087854397,
+        "meaning_rank": 2
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z068": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z069": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z070": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "response",
+      "family_candidates": 13,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z071": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z072": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z073": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 12,
+      "semantic": {
+        "id": "B0356",
+        "meaning_score": 0.6587702035903931,
+        "style_distance": 0.7251785687880508,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0144",
+        "meaning_score": 0.5094383358955383,
+        "style_distance": 1.0452242263524252,
+        "meaning_rank": 10
+      }
+    },
+    "8": {
+      "group": "daily",
+      "family_candidates": 47,
+      "interchangeable": 3,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "B0356",
+        "meaning_score": 0.6587702035903931,
+        "style_distance": 0.7251785687880508,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0284",
+        "meaning_score": 0.6399239301681519,
+        "style_distance": 0.8967645388905857,
+        "meaning_rank": 2
+      }
+    }
+  },
+  "Z074": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z075": {
+    "27": {
+      "group": "money",
+      "family_candidates": 26,
+      "interchangeable": 26,
+      "style_eligible": 18,
+      "semantic": {
+        "id": "E0282",
+        "meaning_score": 0.5196332931518555,
+        "style_distance": 0.7448996695521568,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0290",
+        "meaning_score": 0.34584611654281616,
+        "style_distance": 1.1077106895790436,
+        "meaning_rank": 23
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z076": {
+    "27": {
+      "group": "attack",
+      "family_candidates": 54,
+      "interchangeable": 54,
+      "style_eligible": 50,
+      "semantic": {
+        "id": "E0026",
+        "meaning_score": 0.5636521577835083,
+        "style_distance": 0.6802458500657623,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0583",
+        "meaning_score": 0.36967623233795166,
+        "style_distance": 1.1230576324424348,
+        "meaning_rank": 33
+      }
+    },
+    "8": {
+      "group": "objection",
+      "family_candidates": 152,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z077": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z078": {
+    "27": {
+      "group": "grin",
+      "family_candidates": 32,
+      "interchangeable": 32,
+      "style_eligible": 23,
+      "semantic": {
+        "id": "B0101",
+        "meaning_score": 0.535615861415863,
+        "style_distance": 0.9690874944088382,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0218",
+        "meaning_score": 0.5011210441589355,
+        "style_distance": 1.0189586710888852,
+        "meaning_rank": 8
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z079": {
+    "27": {
+      "group": "tired",
+      "family_candidates": 9,
+      "interchangeable": 9,
+      "style_eligible": 7,
+      "semantic": {
+        "id": "E0143",
+        "meaning_score": 0.45827561616897583,
+        "style_distance": 0.9771843958114528,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0749",
+        "meaning_score": 0.4097409248352051,
+        "style_distance": 0.9800721201855122,
+        "meaning_rank": 5
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z080": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z081": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z082": {
+    "27": {
+      "group": "cry",
+      "family_candidates": 18,
+      "interchangeable": 18,
+      "style_eligible": 7,
+      "semantic": {
+        "id": "E0486",
+        "meaning_score": 0.42140039801597595,
+        "style_distance": 0.8127104624918895,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0142",
+        "meaning_score": 0.29357415437698364,
+        "style_distance": 0.9908064319473694,
+        "meaning_rank": 18
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z083": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z084": {
+    "27": {
+      "group": "surprise",
+      "family_candidates": 23,
+      "interchangeable": 23,
+      "style_eligible": 23,
+      "semantic": {
+        "id": "B0052",
+        "meaning_score": 0.7047269344329834,
+        "style_distance": 0.9785883458341419,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0189",
+        "meaning_score": 0.528649091720581,
+        "style_distance": 1.2210769567440134,
+        "meaning_rank": 13
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 4,
+      "style_eligible": 4,
+      "semantic": {
+        "id": "B0052",
+        "meaning_score": 0.7047269344329834,
+        "style_distance": 0.9785883458341419,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "B0052",
+        "meaning_score": 0.7047269344329834,
+        "style_distance": 0.9785883458341419,
+        "meaning_rank": 1
+      }
+    }
+  },
+  "Z085": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z086": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z087": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z088": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "joy",
+      "family_candidates": 76,
+      "interchangeable": 1,
+      "style_eligible": 0,
+      "semantic": {
+        "id": "B0033",
+        "meaning_score": 0.6277506351470947,
+        "style_distance": 0.38061320012365196
+      },
+      "divergent": null
+    }
+  },
+  "Z089": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 12,
+      "semantic": {
+        "id": "B0144",
+        "meaning_score": 0.7177972197532654,
+        "style_distance": 0.4923659025430921
+      },
+      "divergent": {
+        "id": "B0343",
+        "meaning_score": 0.6286981105804443,
+        "style_distance": 1.0012333823117079,
+        "meaning_rank": 3
+      }
+    },
+    "8": {
+      "group": "daily",
+      "family_candidates": 47,
+      "interchangeable": 1,
+      "style_eligible": 0,
+      "semantic": {
+        "id": "B0144",
+        "meaning_score": 0.7177972197532654,
+        "style_distance": 0.4923659025430921
+      },
+      "divergent": null
+    }
+  },
+  "Z090": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z091": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z092": {
+    "27": {
+      "group": "hungry",
+      "family_candidates": 15,
+      "interchangeable": 15,
+      "style_eligible": 11,
+      "semantic": {
+        "id": "E0238",
+        "meaning_score": 0.5219231843948364,
+        "style_distance": 1.0506719450246143,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0238",
+        "meaning_score": 0.5219231843948364,
+        "style_distance": 1.0506719450246143,
+        "meaning_rank": 1
+      }
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z093": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "support",
+      "family_candidates": 87,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z094": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z095": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z096": {
+    "27": {
+      "group": "confused",
+      "family_candidates": 8,
+      "interchangeable": 8,
+      "style_eligible": 5,
+      "semantic": {
+        "id": "E0339",
+        "meaning_score": 0.6987864971160889,
+        "style_distance": 0.6076173760537119
+      },
+      "divergent": {
+        "id": "B0136",
+        "meaning_score": 0.5402064323425293,
+        "style_distance": 0.9367735771032395,
+        "meaning_rank": 7
+      }
+    },
+    "8": {
+      "group": "question",
+      "family_candidates": 65,
+      "interchangeable": 4,
+      "style_eligible": 2,
+      "semantic": {
+        "id": "E0339",
+        "meaning_score": 0.6987864971160889,
+        "style_distance": 0.6076173760537119
+      },
+      "divergent": {
+        "id": "E0047",
+        "meaning_score": 0.6362481117248535,
+        "style_distance": 0.9240202797336659,
+        "meaning_rank": 4
+      }
+    }
+  },
+  "Z097": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z098": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z099": {
+    "27": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    },
+    "8": {
+      "group": "",
+      "family_candidates": 0,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  },
+  "Z100": {
+    "27": {
+      "group": "fear",
+      "family_candidates": 13,
+      "interchangeable": 13,
+      "style_eligible": 10,
+      "semantic": {
+        "id": "B0017",
+        "meaning_score": 0.5968931317329407,
+        "style_distance": 0.7129141730097767,
+        "meaning_rank": 1
+      },
+      "divergent": {
+        "id": "E0161",
+        "meaning_score": 0.5035384297370911,
+        "style_distance": 1.0397394402026598,
+        "meaning_rank": 5
+      }
+    },
+    "8": {
+      "group": "distress",
+      "family_candidates": 166,
+      "interchangeable": 0,
+      "style_eligible": 0,
+      "semantic": null,
+      "divergent": null
+    }
+  }
+}

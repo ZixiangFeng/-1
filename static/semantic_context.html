@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小屿 · 趋异选图测试 · 八类用意</title>
+<style>
+*{box-sizing:border-box}html{color:#203e34;background:#f5f6f1;font:16px/1.58 system-ui,"PingFang SC",sans-serif}body{margin:0}main{width:min(1120px,calc(100% - 32px));margin:28px auto 72px}nav{display:flex;gap:18px;flex-wrap:wrap}a{color:#176349}h1{font-size:clamp(28px,5vw,42px);margin:20px 0 5px}h2{font-size:21px;margin:0 0 8px}p{margin:5px 0 14px}.panel,details.panel{background:white;border:1px solid #d5ded6;padding:clamp(14px,2.6vw,26px);border-radius:15px;margin-top:16px}.controls{display:flex;align-items:end;gap:12px;flex-wrap:wrap}label{display:grid;grid-template-columns:minmax(0,1fr);gap:3px;font-size:14px;font-weight:600;min-width:0}.item-select{flex:1 1 240px}#query{width:100%;min-width:0}select,input,button{font:inherit;color:inherit;background:white;border:1px solid #b6c8ba;border-radius:7px;min-height:42px;padding:7px 10px;max-width:100%}button{cursor:pointer}button:disabled{opacity:.55}#queryCard{display:flex;gap:18px;align-items:center;margin:18px 0 0}#queryCard img{max-width:100px;height:94px;object-fit:contain}#queryCard p{margin:0}.stages{display:grid;grid-template-columns:1fr 1fr;gap:14px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}.card{min-width:0;padding:10px;border:1px solid #dbe4dc;border-radius:8px}.card img{display:block;width:100%;height:105px;object-fit:contain;background:#f6f7f4}.card p{margin:2px 0;font-size:14px}.card small,.muted{color:#53665b}.card .score{font-variant-numeric:tabular-nums;font-weight:600}summary{cursor:pointer;font-weight:650}details .cards{margin-top:10px}.info{margin-top:10px}table{border-collapse:collapse;margin:12px 0}th,td{text-align:left;padding:7px 12px;border-bottom:1px solid #dae2dc;font-variant-numeric:tabular-nums}[hidden]{display:none!important}
+.missing-filter{display:inline-flex;align-items:center;gap:7px;margin-top:12px;font-weight:400}.missing-filter input{min-height:0;accent-color:#176349}
+@media(max-width:760px){main{width:calc(100% - 20px);margin:16px auto 40px}.stages{display:block}.controls label{width:100%}.item-select{flex:auto}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}#queryCard{gap:10px}#queryCard img{max-width:80px}th,td{padding:6px;font-size:14px}}
+</style>
+</head>
+<body><main>
+<nav><a href="/xiaoyu/research">研究控制台</a><a href="#reviewed">试算已核准的同义组</a><a href="#validation">48 张新图对照</a><a href="__ASSET_BASE__external-test.html">旧版 77 张测试</a><a id="previous" href="__PREVIOUS__">查看 v5 对照</a></nav>
+<h1>趋异选图测试 · 八类用意</h1><p>在 1,250 张公开表情中先按大类查找，再核对两张图在这句话里能否互换。通过核对的候选全部参加画风比较。</p>
+<section class="panel"><div class="controls">
+<label>用意大类<select id="family"><option value="">全部素材</option></select></label>
+<label>搜索素材<input id="search" placeholder="图片编号或含义"></label>
+<label class="item-select">参照表情<select id="query"></select></label>
+<label id="contextWrap" hidden>本次用意<select id="context"><option value="">使用原图的通用含义</option><option value="laugh_together">和朋友一起真心大笑</option><option value="awkward">没听出笑点，只好陪笑</option><option value="gloat">看到对方出丑，在笑话他</option></select></label>
+<button id="download" disabled>下载本次结果</button></div>
+<label class="missing-filter"><input id="unpaired" type="checkbox"><span id="unpairedLabel">只看已归类、仍缺趋异候选的表情</span></label>
+<div id="queryCard"></div><p id="status" role="status" class="muted"></p></section>
+<div class="stages">
+<section class="panel"><h2>① 本次用意的候选</h2><p id="count1" class="muted"></p><div id="semantic" class="cards"></div></section>
+<section class="panel"><h2>② 可替换候选的风格距离</h2><p id="count2" class="muted"></p><div id="divergent" class="cards"></div></section></div>
+<section class="panel" id="reviewed"><h2>用已核准的同义组试算</h2>
+<p>按本次聊天用意勾选图片，也可输入图库内其他编号。系统比较所有核准且符合实验排除条件的图片。此处的勾选仅用于本次预览。</p>
+<label>同义候选编号<input id="approvedIds" placeholder="例如 B0032、E0264"></label>
+<button id="manualRun" disabled>比较核准组</button><p id="manualStatus" role="status"></p><div class="cards" id="manualWinner"></div></section>
+<details class="panel"><summary>查看排除依据</summary><p id="blockedCount" class="info"></p><div id="blocked" class="cards"></div></details>
+<details class="panel" id="validation"><summary>八类模型和旧版在 48 张新图上的对照</summary>
+<p>两版检索同一图库。Codex 混排复核两版首选图，逐对判断图片能否传达同一用意，以及画风是否明显不同。</p>
+<table><thead><tr><th>指标</th><th>旧版 · 27 类</th><th>新版 · 8 类</th></tr></thead><tbody id="paired"></tbody></table>
+<p id="coverage"></p><a href="__ASSET_BASE__eight-family-test.json">下载对照数据</a></details>
+<details class="panel"><summary>原 v6 的历史训练与测试结果</summary><p class="info">1,250 张图片沿用按来源系列划分的训练、验证和测试集，分别为 950、150、150 张。815 张训练图片参与学习，另加入 112 句模拟对话表达。语义排序层有 32,768 个可训练权重。48 轮训练中，验证集选中了第 42 轮。</p>
+<p>第一项测试抽取 32 张留出图片，每张对比 10 个跨风格候选。Codex 按打乱顺序的描述判断候选能否表达相同用意。11 组含有合适图。下表比较加入分数门槛之前的语义排序。</p>
+<table><thead><tr><th>排序算法</th><th>第一名合适</th><th>前五包含合适图</th></tr></thead><tbody id="metrics"></tbody></table>
+<p id="sample"></p><a href="__ASSET_BASE__evaluation-report.json">下载评估结果</a></details>
+</main><script id="catalog" type="application/json">__DATA__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.querySelector('#catalog').textContent);
+const byId=new Map(data.items.map(row=>[row.id,row]));
+const get=id=>document.getElementById(id);
+const media={photo:'摄影',cartoon:'二维卡通',line:'线稿',three_d:'三维',typography:'文字图',unknown:'画风待核对'};
+const reasons={self:'参照图自身',missing_style_distance:'缺少风格向量',same_family:'同一人物或模板',same_source_series:'同来源系列',duplicate:'重复图',same_medium:'相同画风',insufficient_style_distance:'风格差距较小',unresolved_medium:'画风待核对',ambiguous_caption:'含义待核对'};
+let serial=0,selected=null,loaded=null;
+const catalogIndices=new Map(data.items.map((row,index)=>[row.id,index]));
+function idsInput(){return Array.from(new Set(get('approvedIds').value.toUpperCase().split(/[、，,\s]+/).filter(Boolean)))}
+function clearManual(){get('manualWinner').replaceChildren();get('manualStatus').textContent='';if(selected)delete selected.reviewed_group}
+function manual(){
+ clearManual();if(!loaded||!selected)return;
+ const ids=idsInput(),bad=ids.filter(id=>!catalogIndices.has(id));
+ if(!ids.length||bad.length){get('manualStatus').textContent=bad.length?'未找到编号 '+bad.join('、'):'请勾选或输入同义图编号';return}
+ const ranked=[],excluded=[];
+ for(const id of ids){const d=loaded.style_lookup[catalogIndices.get(id)];
+  if(typeof d==='number'&&Number.isFinite(d))ranked.push({id,style_distance:d});
+  else excluded.push({id,reason:d});
+ }
+ if(excluded.some(x=>x.reason==='missing_style_distance'||!x.reason)){get('manualStatus').textContent='同义组内有图片缺少风格数据，暂时无法比较完整组。';return}
+ ranked.sort((a,b)=>b.style_distance-a.style_distance||(a.id<b.id?-1:a.id>b.id?1:0));
+ selected.reviewed_group={approved:ids,excluded,ranked,maximum:ranked[0]||null};
+ get('manualStatus').textContent=(ranked.length?'最大差异为 '+ranked[0].id+'，风格距离 '+ranked[0].style_distance.toFixed(3)+'。':'本组没有可用图片。')+
+  '已核准 '+ids.length+' 张，参与比较 '+ranked.length+' 张。'+excluded.map(x=>x.id+'（'+(reasons[x.reason]||x.reason)+'）').join('、');
+ if(ranked.length)get('manualWinner').append(card(ranked[0],'manual'));
+}
+get('manualRun').onclick=manual;get('approvedIds').oninput=clearManual;
+function el(tag,text,cls){const node=document.createElement(tag);if(text!==undefined)node.textContent=text;if(cls)node.className=cls;return node}
+function pic(id){const im=el('img');im.src=data.assets+'images/'+id+'.jpg';im.alt=id;im.loading='lazy';return im}
+function card(item,kind){
+ const r=byId.get(item.id),box=el('article',undefined,'card');box.append(pic(r.id),el('small',r.id+' · '+(media[r.medium]||r.medium)),el('p',r.meaning));
+ const line=kind==='manual'?'核准组内最大风格距离 '+item.style_distance.toFixed(3):kind==='divergent'?'风格距离 '+item.style_distance.toFixed(3)+' · 语义 '+item.meaning_score.toFixed(3):'语义 '+item.meaning_score.toFixed(3);
+ box.append(el('p',line,'score'));if(r.meaning_review)box.append(el('small',r.meaning_review));if(item.reason)box.append(el('small',reasons[item.reason]||item.reason));
+ if(kind==='semantic'){const pick=el('button','加入本次同义组');pick.onclick=()=>{const ids=idsInput();if(!ids.includes(r.id))ids.push(r.id);get('approvedIds').value=ids.join('、');clearManual()};box.append(pick)}return box
+}
+async function render(){
+ const id=get('query').value,r=byId.get(id),ticket=++serial;
+ selected=null;loaded=null;get('download').disabled=true;get('manualRun').disabled=true;get('approvedIds').value='';clearManual();
+ for(const key of ['queryCard','semantic','divergent','blocked','count1','count2','blockedCount','status'])get(key).replaceChildren();
+ get('contextWrap').hidden=id!=='B0032';
+ if(!r){get('status').textContent='当前筛选条件下没有素材。';return}
+ get('status').textContent='正在载入结果…';
+ try{
+   const response=await fetch(data.assets+'rows/'+id+'.json');if(!response.ok)throw Error();
+   const all=await response.json();if(ticket!==serial)return;
+   const key=id==='B0032'?get('context').value:'',view=key?all.contexts[key]:all;
+   if(!view||all.checkpoint_sha256!==data.sha||all.intent_sha256!==data.intent_sha)throw Error();
+   const intro=el('div');intro.append(el('small',id+' · '+r.split+' · '+(media[r.medium]||r.medium)),el('p',r.meaning));
+   if(r.meaning_review)intro.append(el('small',r.meaning_review));if(key)intro.append(el('p','示例对话用意　'+data.contexts[key],'muted'));get('queryCard').append(pic(id),intro);
+   get('status').textContent=view.group_name?'用意大类为「'+view.group_name+'」。':'资料不足，已列入待核对素材。';
+   get('count1').textContent='同大类中有 '+view.broad_count+' 张可比较的素材。结合本次用意，保留 '+view.semantic.length+' 张候选。';
+   get('count2').textContent=view.divergent.length?'候选中画风距离最大为 '+view.maximum.id+'。已比较全部 '+view.divergent.length+' 张合格候选，页面展示前 18 张。':(view.semantic.length?'本次候选没有可用的画风排名。':'图库中暂未找到可以替换这句话的表情。');
+   for(const kind of ['semantic','divergent','blocked'])get(kind).replaceChildren(...view[kind].slice(0,18).map(item=>card(item,kind)));
+   get('blockedCount').textContent='同组中已排除 '+view.blocked.length+' 张，最多展示 18 条排除记录。';
+   selected={query:id,meaning:key?data.contexts[key]:r.meaning,checkpoint_sha256:data.sha,intent_sha256:data.intent_sha,family:view.group,family_name:view.group_name,family_candidates:view.broad_count,pair_floor:view.pair_floor,group:view.group,policy:view.policy,maximum:view.maximum,semantic:view.semantic,divergent:view.divergent,blocked:view.blocked};
+   loaded=all;get('manualRun').disabled=false;get('download').disabled=false;
+ }catch(error){if(ticket===serial)get('status').textContent='结果未载入，请重新选择素材或刷新页面。'}
+}
+function filter(preferred){
+ const term=get('search').value.trim().toLowerCase(),select=get('query');
+ const family=get('family').value;
+ const needsPair=get('unpaired').checked;
+ const rows=data.items.filter(r=>(!family||(r.family||'pending')===family)&&(!needsPair||(r.family&&!r.has_winner))&&(r.id+' '+r.meaning).toLowerCase().includes(term));
+ select.replaceChildren(...rows.map(r=>new Option(r.id+' · '+r.meaning.slice(0,34),r.id)));
+ if(rows.some(r=>r.id===preferred))select.value=preferred;
+ get('context').value='';render()
+}
+for(const [key,name] of Object.entries(data.families))get('family').add(new Option(name+'（'+data.coverage.family_counts[key]+'）',key));
+get('family').add(new Option('待核对（'+(data.coverage.size-data.coverage.assigned)+'）','pending'));
+get('unpairedLabel').textContent='只看已归类、仍缺趋异候选的表情（'+(data.coverage.assigned-data.coverage.with_winner)+' 张）';
+get('family').onchange=get('unpaired').onchange=()=>filter(get('query').value);
+get('search').oninput=()=>filter(get('query').value);
+get('query').onchange=()=>{get('context').value='';render()};
+get('context').onchange=render;
+get('download').onclick=()=>{if(!selected)return;const url=URL.createObjectURL(new Blob([JSON.stringify(selected,null,2)],{type:'application/json'}));const a=el('a');a.href=url;a.download=selected.query+'-8类.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+for(const [k,name] of [['v5_fixed_score','v5 固定公式'],['bge_no_training','原始 BGE'],['v6','v6 训练后']]){
+ const m=data.evaluation.ungated[k],tr=el('tr');tr.append(el('td',name),el('td',Math.round(m.hit1*m.answerable)+' / '+m.answerable),el('td',Math.round(m.hit5*m.answerable)+' / '+m.answerable));get('metrics').append(tr)
+}
+const e=data.evaluation, sys=e.full_gallery.systems;
+get('sample').textContent='加入验证集选定的 0.60 门槛后，v6 在 11 组中保留了 '+Math.round(e.after_cutoff.hit5*11)+' 组的合适图。另从留出图片随机抽取 14 张，在全库执行两步选图，混排查看实际图片与释义。v6 前五中合适的有 '+sys.v6.accepted+' / '+sys.v6.returned+' 张，v5 为 '+sys.v5.accepted+' / '+sys.v5.returned+' 张。这些是 Codex 复核结果，被试对风格差异的感知仍需单独测量。';
+const paired=data.holdout.results;
+for(const [name,key] of [['归入用意大类','assigned'],['给出趋异首选','returned'],['首选同义且画风有别','both'],['首选用意明确不符','different_meaning'],['首选用意待定','unclear_meaning']]){
+ const values=['27','8'].map(m=>key==='assigned'?paired[m].assigned:paired[m].divergent[key]);
+ const tr=el('tr');tr.append(el('th',name),...values.map(v=>el('td',v+' 张')));get('paired').append(tr);
+}
+get('coverage').textContent='在完整图库中，可自动归类的有 '+data.coverage.assigned+' / '+data.coverage.size+' 张，旧版为 '+data.coverage.previous_assigned+' 张。新图测试采用公开表情，未采集被试对话评价。';
+filter(new URLSearchParams(location.search).get('id')||'B0032');
+</script></body></html>

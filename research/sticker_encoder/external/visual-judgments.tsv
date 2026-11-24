@@ -1,0 +1,78 @@
+id	uses	medium	family	visual_read
+X001		three_d		瞪眼角色，单张图难确定在接什么话
+X002	praise	three_d		牛哞谐音梗，也可能只是模仿牛叫
+X003	explain	cartoon		举个例子
+X004	surprise,doubt	photo		回头看，似在说真的假的
+X005	confused,invite_detail	cartoon	capybara	让对方展开说说
+X006	gardening	cartoon		去种菜的情景
+X007	tired,speechless	cartoon		在电脑前提不起劲
+X008	speechless,challenge	cartoon		所以呢，反问对方还能怎样
+X009	work	photo		产品被团队围攻的职场梗
+X010		unknown		财富与机会的宣传图，具体聊天用意不清
+X011	invite	line	mushroom_head	张开衣服说来吧
+X012	cry,tired	typography		抱怨没人心疼且浑身疼
+X013		unknown		眼睛在发光，语气不明确
+X014	mock	photo		调侃背叛的同伴
+X015	invite	line	panda_meme	催对方上号
+X016	greet	photo		飞快打招呼
+X017	confused,surprise	line		歪头问啊
+X018		photo	doge	狗看着镜头，无从确认用意
+X019		photo		猫盯着镜头
+X020	leave,laugh	photo		兴冲冲下班离开
+X021	attack	line	panda_meme	威胁要半夜删代码
+X022	reluctant	line		好吧，勉强接受
+X023	celebratory_toast	photo		小酒杯碰杯
+X024	laugh,celebratory_toast	three_d	kermit	过节庆祝
+X025	laugh	line	panda_meme	哈哈哈
+X026	laugh,grin	photo		猫被配上大笑的人嘴，可能是搞怪地笑
+X027	hungry	cartoon		吃饼干
+X028		unknown		拿手机看，表情可以有多种解读
+X029	laugh	cartoon		开怀地乐
+X030	laugh	photo		用大串哈哈哈笑出声
+X031	speechless,annoyed	three_d	niu3d	牛不嘻，笑不出来
+X032	greet	cartoon		早安问好
+X033	greet	line	panda_meme	结结巴巴地道早安
+X034	doubt,annoyed	three_d	niu3d	斜眼，怀疑或不满
+X035		photo		狗被捏鼻头，聊天用意不确定
+X036	mischief	cartoon		看起来打起了坏主意
+X037		photo		白猫坐着看
+X038	doubt,speechless	photo		怀疑或无语地侧目
+X039		photo		戴头套的猫，情绪不明确
+X040		three_d		青蛙玩偶侧头看，具体用意不清
+X041	tired,speechless	cartoon		倦怠地看着对方
+X042	tired,complaint	cartoon		抱怨薪水和工作
+X043	cry,complaint	photo		感叹命苦
+X044	complaint,speechless	typography		吐槽被资本做局了
+X045	work,complaint	line	panda_meme	调侃程序员加班
+X046	tired	line		无力，累得提不起劲
+X047		photo		狗咧嘴，意图不确定
+X048	bored,speechless	photo		抠鼻，一副懒得回应的样子
+X049	luck	cartoon		锦鲤，好运
+X050	surprise	cartoon		惊了一下
+X051	cry	cartoon		流眼泪
+X052	confused	cartoon		冒问号，没听明白
+X053	cry,surprise	cartoon		夸张地张嘴喊
+X054	laugh	cartoon		闭眼开怀地笑
+X055	speechless,tired	cartoon		垂眼叹气，提不起兴致
+X056	grin,speechless	cartoon		尴尬冒汗，无奈发愣
+X057	surprise	cartoon	coolcow	惊讶地张嘴
+X058	playful	cartoon	coolcow	吐舌做鬼脸
+X059	shy	cartoon	coolcow	有些害羞
+X060	sleep,tired	cartoon	coolcow	打哈欠
+X061	fear	cartoon	coolcow	惊慌冒汗发抖
+X062	grin,speechless	cartoon	coolcow	擦汗苦笑
+X063	love	three_d		飞吻
+X064		three_d		地球图标，意图不明
+X065	refuse	three_d		交叉双臂表示不行
+X066	ill	three_d		戴口罩，生病或防护
+X067	laugh	three_d		张嘴开怀大笑
+X068	laugh	three_d		开心地笑
+X069	grin,doubt	three_d		歪嘴斜眼，尴尬或半信半疑
+X070	laugh,mock	three_d		侧头笑，有打趣的可能
+X071	praise,proud	three_d		奖杯，夸奖或表达成就
+X072	celebratory_toast	three_d		庆祝新年
+X073	film	three_d		开拍
+X074	laugh,mischief	three_d		捂嘴偷笑
+X075	laugh	three_d		仰天大笑
+X076	speechless,grin	three_d		斜眼流汗，无语
+X077	grin,fear	three_d		冷汗，有点紧张尴尬

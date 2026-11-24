@@ -1,0 +1,76 @@
+{
+  "dataset": "StickerQueries Chinese static holdout",
+  "n": 100,
+  "gallery": 1250,
+  "pairs_reviewed": 91,
+  "sample_sha": "33ae241d2d94b9b8102fe9a7f1768332c59d27c68aad8c15123c0ad22dd47457",
+  "model": "2e58befc027197e822e9c778a5a7c85f952e9e05f5ab8d7337a21edaf41fabc9",
+  "assessments_sha": "03426ec676c4680df34a0ce34fbb0f07429a145f1de7529d92e2e806193b550f",
+  "query_coding_sha": "4a8001b764015693d23ae1991ff169460ab4ddd28ad4b1b3660a9a3a7c6ff6b8",
+  "paired_joint_wins": {
+    "both": 3,
+    "new_only": 11,
+    "old_only": 4,
+    "neither": 82
+  },
+  "methods": {
+    "27": {
+      "assigned": 37,
+      "reference_clear": 61,
+      "assigned_on_clear": 33,
+      "correct_on_clear": 29,
+      "unassigned": 63,
+      "no_semantic_match_after_classification": 0,
+      "no_style_match_after_semantics": 0,
+      "semantic_yes_to_divergent_wrong": 9,
+      "semantic_yes_to_divergent_unclear": 2,
+      "semantic_yes_to_divergent_yes": 5,
+      "checked_maximum": 100,
+      "semantic": {
+        "returned": 37,
+        "same": 16,
+        "different": 11,
+        "unclear": 10,
+        "style_different": 32,
+        "both": 15
+      },
+      "divergent": {
+        "returned": 37,
+        "same": 7,
+        "different": 26,
+        "unclear": 4,
+        "style_different": 37,
+        "both": 7
+      }
+    },
+    "8": {
+      "assigned": 34,
+      "reference_clear": 61,
+      "assigned_on_clear": 29,
+      "correct_on_clear": 26,
+      "unassigned": 66,
+      "no_semantic_match_after_classification": 11,
+      "no_style_match_after_semantics": 2,
+      "semantic_yes_to_divergent_wrong": 1,
+      "semantic_yes_to_divergent_unclear": 2,
+      "semantic_yes_to_divergent_yes": 11,
+      "checked_maximum": 100,
+      "semantic": {
+        "returned": 23,
+        "same": 15,
+        "different": 3,
+        "unclear": 5,
+        "style_different": 19,
+        "both": 13
+      },
+      "divergent": {
+        "returned": 21,
+        "same": 14,
+        "different": 4,
+        "unclear": 3,
+        "style_different": 19,
+        "both": 14
+      }
+    }
+  }
+}
