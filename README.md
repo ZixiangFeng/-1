@@ -96,7 +96,10 @@ python server.py
 
 ## 回归测试
 
+先在虚拟环境中安装 `requirements-research.txt`，并准备 BGE 中文模型。测试默认创建临时数据库。若当前终端设置过 `DEMO_DATA`，请在测试命令前加 `env -u DEMO_DATA`，让每次运行都使用独立的临时目录。
+
 ```sh
+python scripts/setup_embeddings.py
 python -m unittest discover -s tests
 for suite in tests/*.cjs; do node "$suite" || exit 1; done
 ```

@@ -11,7 +11,6 @@ ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 import sticker_pragmatics as use
 from scripts.collect_stickerqueries_holdout import CACHE, HOLDOUT, RUN, N, REV, read, sha, stored
-from scripts.evaluate_pragmatic_retrieval import score_queries
 
 FAMILY_REVIEW=RUN/'query-family-review.tsv'
 PAIR_REVIEW=RUN/'pair-review.tsv'
@@ -95,6 +94,8 @@ def query_labels(rows):
 
 
 def predict(rows):
+    from scripts.evaluate_pragmatic_retrieval import score_queries
+
     query_labels(rows)
     stored(RUN/'before-prediction.json',dict(manifest=sha((HOLDOUT/'manifest.json').read_bytes()),
            protocol=sha((RUN/'protocol.json').read_bytes()),family_judgments=sha(FAMILY_REVIEW.read_bytes()),
